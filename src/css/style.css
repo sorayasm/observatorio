@@ -59,16 +59,21 @@ h2{
   color: #4c9f38;
 }
 
-  h3 {
-    color: #4c9f38;
-  }
-  
-  h4 {
-    margin-top: 1em;
-    padding-bottom: 0.75em;
-    color: #4c9f38;
-    font-weight: 500;
-  }
+h3 {
+  color: #4c9f38;
+}
+
+h4 {
+  margin-top: 1em;
+  padding-bottom: 0.75em;
+  color: #4c9f38;
+  font-weight: 500;
+}
+
+h5 {
+  color: #4c9f38;
+  font-weight: 600;
+}
   
   a{
     color: #02558a;
