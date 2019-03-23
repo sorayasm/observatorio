@@ -13,19 +13,17 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-md navbar-light bg-white flex-row">
+	<nav class="navbar navbar-expand-md navbar-light bg-white flex-row">
 			<a class="navbar-brand mx-md-left mr-auto mx-sm-center" href="/">
 				<img src="http://placehold.it/150x150?text=Logo" alt="">
 			</a>
-			<button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		</nav>
-		<nav class="navbar navbar-expand-md navbar-light bg-white flex-row">
-			<form class="form-inline mt-2 mt-md-0" action="/src/resultados-de-busqueda.html">
+			<form class="form-inline mt-2 mt-md-0 hidden-sm-up" action="resultados-de-busqueda.html">
 				<input class="form-control mr-sm-2" type="text" placeholder="¿Qué quieres buscar?" aria-label="Search">
 				<button class="btn btn-primary mr-1 ml-1" type="submit">Buscar</button>
 			</form>
+			<button class="navbar-toggler mr-lg-0 " type="button" data-toggle="collapse" data-target="#navbarContent">
+					<i class="fas fa-bars fa-2x "></i>
+			</button>
 		</nav>
 <nav class="navbar navbar-expand-md navbar-dark p-0">
     <div class="collapse navbar-collapse bg-primary py-3" id="navbarContent">
