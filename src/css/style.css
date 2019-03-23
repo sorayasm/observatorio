@@ -50,15 +50,21 @@ html {
     border-color: #0062cc;
 }
 
-  h1 {
-    color: #02558a;
-  }
+h1 {
+  color: #02558a;
+}
   
+h2{
+  margin-top: .5em;
+  color: #4c9f38;
+}
+
   h3 {
     color: #4c9f38;
   }
   
   h4 {
+    margin-top: 1em;
     padding-bottom: 0.75em;
     color: #4c9f38;
     font-weight: 500;
@@ -110,7 +116,7 @@ html {
     margin-left: 5px;
   }
 
-  bottom {
+  .bottom {
     padding-bottom: 2em;
   }
   
@@ -134,6 +140,24 @@ html {
 [class*="col-"] {
   padding:  0em 1em;
 }
+
+.margin-acuerdos {
+  padding:  2em !important;
+}
+
+.bg-otd {
+  background-color: #cccccc;
+  margin: 15px 0px;
+  padding: 2em;
+  border-radius: 0.25em;
+}
+
+.bg-otd h2 {
+  padding-bottom: 0.75em;
+  text-align: center;
+}
+
+
   /* 5 cols */
   .ten-columns {
     display: -webkit-box;
@@ -580,10 +604,15 @@ html {
   .hero-text-page {
     text-align: left;
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 2%;
     color: white;
   }
+
+  .hero-text-page h2{
+    color:white !important;
+  }
+
   /* Card */
   .card {
     background-color: #fff;
@@ -620,104 +649,6 @@ html {
     display: table;
     width: 100%;
     padding: 12px;
-  }
-  /* About */
-  .people .btn-primary:hover,
-  .people .btn-primary:focus {
-    background-color: #02558a;
-    border-color: #02558a;
-    box-shadow: none;
-    outline: none;
-  }
-  .people .btn-primary {
-    color: #fff;
-    background-color: #02558a;
-    border-color: #02558a;
-  }
-  #team .card {
-    border: none;
-    background: #ffffff;
-  }
-  .image-flip:hover .backside,
-  .image-flip.hover .backside {
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    border-radius: 0.25rem;
-  }
-  .image-flip:hover .frontside,
-  .image-flip.hover .frontside {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-  }
-  .mainflip {
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -moz-transition: 1s;
-    -moz-transform: perspective(1000px);
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-    position: relative;
-  }
-  .frontside {
-    position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 20px;
-  }
-  .backside {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: white;
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-  }
-  .frontside,
-  .backside {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transition: 1s;
-    -moz-transform-style: preserve-3d;
-    -o-transition: 1s;
-    -o-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-  }
-  .frontside .card,
-  .backside .card {
-    min-height: 312px;
-  }
-  .backside .card a {
-    font-size: 18px;
-    color: #02558a !important;
-  }
-  .frontside .card .card-title,
-  .backside .card .card-title {
-    color: #4c9f38 !important;
-  }
-  
-  .frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
   }
   
   /* Tableau */
