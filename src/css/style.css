@@ -105,6 +105,11 @@ html {
   
   } 
   
+  .form-control {
+    width: 200px;
+    margin-left: 5px;
+  }
+
   /* 5 cols */
   .ten-columns {
     display: -webkit-box;
