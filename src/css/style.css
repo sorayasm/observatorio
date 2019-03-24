@@ -71,7 +71,7 @@ h4 {
 }
 
 h5 {
-  color: #4c9f38;
+  color: #4c9f38;;
   font-weight: 600;
 }
   
@@ -190,7 +190,7 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #cccccc;
+    background-color: #00aeef;
     position: relative;
     border-radius: 0px !important;
   }
