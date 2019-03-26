@@ -105,9 +105,9 @@ h5 {
     padding-left: 1.2rem;
 }
 
-  @media (max-width: 769px) {
+  @media (max-width: 767px) {
       body {
-      margin-bottom: 12em;
+      margin-bottom: 16em;
     }
   
     .odt-footer {
