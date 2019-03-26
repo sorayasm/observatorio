@@ -105,7 +105,7 @@ h5 {
     padding-left: 1.2rem;
 }
 
-  @media (max-width: 991px) {
+  @media (max-width: 769px) {
       body {
       margin-bottom: 12em;
     }
