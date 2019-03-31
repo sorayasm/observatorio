@@ -100,15 +100,10 @@ input{
   padding-left: 0 !important;
 }
 
-@media  all and (max-width: 999px) {
-  body {
-  font-size: 12px !important;
-}}
-
-
  @media  all and (max-width: 767px) {
       body {
       margin-bottom: 36em;
+      font-size: 12px !important;
     }
   
     .odt-footer {
@@ -165,6 +160,27 @@ input{
 .dropdown-item {
   font-size: 12px;
 }
+ 
+/* Nav */
+
+nav {
+  background-color: #ffffffcf;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 990px) {
+
+}
+
+/* Main */
+
+.main {
+  text-align: justify;
+}
 
   /* 5 cols */
   .ten-columns {
@@ -175,27 +191,32 @@ input{
     flex-wrap: wrap;
   }
 
-  */
+  
   /* Hero page*/
   .hero-page {
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 350px;
+    background: url(https://source.unsplash.com/collection/4558413) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color: #00aeef !important;
     position: relative;
     border-radius: 0px !important;
   }
+
   .hero-text-page {
     text-align: left;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 12%;
-    color: white;
   }
 
   .hero-text-page h2{
-    color:white !important;
+    color:rgb(34, 34, 34) !important;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #ffffffcf;
+    padding: .5em;
   }
 
   /* Card */
