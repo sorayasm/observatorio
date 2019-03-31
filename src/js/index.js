@@ -10,3 +10,7 @@ window.addEventListener('scroll', function(event) {
     }
 });
 
+$(function(){
+    $(".percircle").percircle();
+});
+
