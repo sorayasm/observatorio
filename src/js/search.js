@@ -19,21 +19,15 @@
         for (i = 0; i < data.length; i++){
         var query = window.location.search.substring(1).split("=")[1].toLowerCase();
         var searchRes = document.getElementById("search-res");
-        searchRes.innerHTML = "<h4> Resultados para " + query + ":</h4>"
+        searchRes.innerHTML = "<h4> Resultados para " + query + ":</h4>";
+        var printRes = document.getElementById("print-res");
 
-        if (data[i].title.toLowerCase().includes(query)) {
-            console.log(data[i].title)
-            var link = data[i];
-            results.push(link);
-            
-            for(i = 0; i < results.length; i++) {
-                var printRes = document.getElementById("print-res");
-                printRes.innerHTML =  results[i].title ;
-                //"<h5>" + results[i].title + "</h5><br><p>" + results[i].content + "</p><br><a src='" + results[i].link+ "'>" + results[i].link+"</a>";
-            }
+        if (!data[i].title.toLowerCase().includes(query)) {
+            console.log("else " + data[i].title)
+            printRes.innerHTML = "<p>Lo sentimos no hay resultados para tu búsqueda.</p>";
         } else {
-            console.log(data[i].title)
-            printRes.innerHTML = "<p>Lo sentimos no hay resultados para tu búsqueda.</p>"
+            console.log( "list " +data[i].title)
+            printRes.innerHTML ="<h5>" + data[i].title + "</h5><br><p>" + data[i].content + "</p><br><a src='" + data[i].link+ "'>" + data[i].link+"</a>";
         }
     }
         
