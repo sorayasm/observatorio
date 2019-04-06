@@ -8,11 +8,11 @@ window.onload = function() {
 }
 
 $(document).ready(function(){
-    $("#myInput") .on("keyup", function() {
+    $("#myInput") .bind("keyup change", function() {
         var value = $(this).val().toLowerCase();
         $("#myList li").filter(function() {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
-    });
+});
 
