@@ -190,8 +190,13 @@ nav {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   
+
+.col-md-15 {
+    width: 20%;
+    float: left;
+}
+
   /* Hero page*/
   .hero-page {
     height: 350px;
