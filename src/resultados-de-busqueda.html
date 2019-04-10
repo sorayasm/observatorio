@@ -15,7 +15,7 @@
 	<nav class="navbar navbar-expand-lg  navbar-light  fixed-top  ">
 					<div class="container">
 							<a class="navbar-brand js-scroll-trigger" href="../index.html">
-							<img src="http://placehold.it/150x80?text=Logo" alt="">
+							<img class="logo" src="/assets/img/logo.png" alt="Observatorio de Trabajo Decente">
 						</a>
 						<button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#navbarContent">
 								<i class="fas fa-bars fa-1x "></i>
@@ -86,14 +86,10 @@
 					</div>
 					<div class="row margin d-flex justify-content-center">
 						<div class="col-12 col-md-10 margin-acuerdos w-100">
-							<div  id="search-res" ></div>
-							<input id="myInput" type="text" placeholder="Buscar">
-							<ul id="myList">
-									<li>First item</li>
-									<li>Second item</li>
-									<li>Third item</li>
-									<li>Fourth</li>
-								  </ul>
+							<div  id="search-res" class="w-100" ></div>
+							<input id="inputSearch" type="text" class="mb-3" placeholder="Buscar">
+							<ul id="results" class="list-group"></ul>
+							<div id="noresults" class="list-group"></div>
 						</div>
 					</div>
 				</div>

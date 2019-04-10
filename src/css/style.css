@@ -163,6 +163,11 @@ input{
  
 /* Nav */
 
+.logo {
+    height: 90px;
+}
+
+
 nav {
   background-color: #ffffffcf;
 }
