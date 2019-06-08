@@ -10,7 +10,48 @@ window.addEventListener('scroll', function(event) {
     }
 });
 
+
+// 
 $(function(){
     $(".percircle").percircle();
 });
 
+
+// Search
+const search = document.getElementById('search');
+const matchList = document.getElementById('match-list');
+
+// Get data and filtered
+const searchPages = async searchText => {
+    const res = await fetch('assets/data/search.json');
+    const pages = await res.json()
+    
+    // filter
+    let matches = pages.filter( page => {
+    const regex = new RegExp(`${searchText}`, 'gi');
+    return page.title.match(regex) || page.excerpt.match(regex);
+    });
+
+    if(searchText.length === 0)   {
+        matches = [];
+        matchList.innerHTML = '';
+        }
+
+    outputHtml(matches);
+}
+
+// Show results
+const outputHtml = matches => {
+    if(matches.length > 0) {
+        const html = matches.map(match => `
+        <div class="card card-body">
+        <a href="${match.url} "><h5>${match.title} </h5>
+        <small>${match.excerpt}</small></a>
+        </div>
+        `).join('')
+
+       matchList.innerHTML = html;
+    }
+}
+
+search.addEventListener('input', () => searchPages(search.value));

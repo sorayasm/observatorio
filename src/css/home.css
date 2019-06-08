@@ -43,6 +43,17 @@
     width: 80%;
 }
 
+/* Search */
+input#search {
+  width: 320px;
+}
+
+div#match-list {
+  position: absolute;
+  top: 67px;
+  z-index: 200;
+}
+
   /* Percircle */
 
 .percircle.dark {
