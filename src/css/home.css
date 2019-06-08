@@ -50,7 +50,7 @@ input#search {
 
 div#match-list {
   position: absolute;
-  top: 67px;
+  top: 85px;
   z-index: 200;
 }
 
