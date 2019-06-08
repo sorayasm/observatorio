@@ -44,8 +44,9 @@ const searchPages = async searchText => {
 const outputHtml = matches => {
     if(matches.length > 0) {
         const html = matches.map(match => `
-        <div class="card card-body">
-        <a href="${match.url} "><h5>${match.title} </h5>
+        <div class="card card-body mt-0 mb-0 text-left">
+        <a href="${match.url} ">
+        <h5 class="mb-0">${match.title} </h5>
         <small>${match.excerpt}</small></a>
         </div>
         `).join('')

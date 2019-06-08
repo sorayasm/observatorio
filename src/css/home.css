@@ -13,7 +13,7 @@
 }
   
   .carousel-item {
-    height: 32rem;
+    height: 34rem;
   }
 
   .carousel-item > img {
@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 34rem;
   }
 
   @media  (max-width: 767px) {
