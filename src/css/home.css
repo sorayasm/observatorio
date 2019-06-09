@@ -5,11 +5,12 @@
 }
 
 .carousel-caption p {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .carousel-caption h1{
-    font-size: 3.2em;
+    font-size: 2.2em;
+    background-color: #ffffffcf;
 }
   
   .carousel-item {
@@ -22,6 +23,10 @@
     left: 0;
     min-width: 100%;
     height: 34rem;
+  }
+
+  .bg-carousel{
+    background-color: #02558acf;
   }
 
   @media  (max-width: 767px) {

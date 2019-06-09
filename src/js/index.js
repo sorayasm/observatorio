@@ -1,3 +1,4 @@
+// nav
 var nav = document.querySelector('nav'); 
 
 window.addEventListener('scroll', function(event) {
@@ -10,12 +11,10 @@ window.addEventListener('scroll', function(event) {
     }
 });
 
-
-// 
+//  percent graphs
 $(function(){
     $(".percircle").percircle();
 });
-
 
 // Search
 const search = document.getElementById('search');
