@@ -36,7 +36,7 @@ const searchPages = async searchText => {
         matchList.innerHTML = '';
         }
 
-    outputHtml(matches);
+    outputHtml(matches.slice(0,5));
 }
 
 // Show results
