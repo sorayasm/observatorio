@@ -167,11 +167,9 @@ ol li {
 }
 
 /* Nav */
-
 .logo {
     height: 90px;
 }
-
 
 nav {
   background-color: #ffffffcf;
@@ -182,12 +180,7 @@ nav {
   font-weight: 600;
 }
 
-@media (max-width: 990px) {
-
-}
-
 /* Main */
-
 .main {
   text-align: justify;
 }
@@ -201,7 +194,6 @@ nav {
     flex-wrap: wrap;
   }
   
-
 .col-md-15 {
     width: 20%;
     float: left;
@@ -341,7 +333,6 @@ nav {
     margin-bottom: 1.5em;
   }
   
-  
   footer  .footer-title{
     font-weight: 700;
     margin-bottom: 5px;
@@ -355,3 +346,11 @@ nav {
     color:  #00aeef;
     text-decoration: none;
   }
+
+
+  /* headers 
+
+  .bg-empleo-categoria-ocupacional{
+      background: url(../../assets/img/headers/empleo\ por\ categoria\ ocupacional.jpf) no-repeat center center fixed; 
+  }
+*/
