@@ -70,6 +70,11 @@ div#match-list {
     margin-top: -15px;
  }
 
+ .title-dimensiones{
+    font-weight: 300;
+    font-size: 14px;
+ }
+
 .percircle.dark {
   background-color: #777777;
 }
