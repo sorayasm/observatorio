@@ -329,6 +329,12 @@ nav {
   }
   
   footer .logo-lab {
+    width: 130px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  footer .logo-red{
     width: 150px;
     margin-top: 1em;
     margin-bottom: 1.5em;
