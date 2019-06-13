@@ -281,25 +281,16 @@ nav {
    display:none;
  } 
 
-
-  /* @media only screen and (min-width: 320px) and (max-width: 764px) {
-    .tablet,
+  @media only screen and (max-width: 630px) {
     .desktop {
       display: none;
     }
   }
-  @media only screen and (min-width: 764px) and (max-width: 999px) {
-    .phone,
-    .desktop {
+  @media only screen and (min-width: 631px) {
+    .phone {
       display: none;
     }
-  }
-  @media only screen and (min-width: 1000px) {
-    .phone,
-    .tablet {
-      display: none;
-    }
-  } */
+  } 
   
   /* Footer */
   footer {
