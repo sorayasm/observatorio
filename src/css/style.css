@@ -269,16 +269,10 @@ nav {
     margin: 0 auto;
   }
 
-  @media only screen and (max-width: 630px) {
-    .desktop {
-      display: none;
-    }
-  }
-  @media only screen and (min-width: 631px) {
     .phone {
       display: none;
     }
-  } 
+  
   
   /* Footer */
   footer {
