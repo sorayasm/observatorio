@@ -269,18 +269,6 @@ nav {
     margin: 0 auto;
   }
 
-  .desktop {
-    display: block;
-  }
-
-  .tablet {
-    display:none;
-  }
-
- .phone{
-   display:none;
- } 
-
   @media only screen and (max-width: 630px) {
     .desktop {
       display: none;
