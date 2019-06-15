@@ -100,21 +100,11 @@ input{
   padding-left: 0 !important;
 }
 
- @media  all and (max-width: 767px) {
-      body {
-      margin-bottom: 36em;
-      font-size: 12px !important;
-    }
-  
-    .odt-footer {
-      text-align: center;
-    }
-  
-    .navbar-nav {
-      background-color: white;
-  }
+.img-formula {
+  width: 260px;
+  margin-bottom: 5em;
+}
 
-  } 
 
   .bottom {
     padding-bottom: 2em;
@@ -340,6 +330,26 @@ nav {
     text-decoration: none;
   }
 
+
+ @media  all and (max-width: 767px) {
+  body {
+  margin-bottom: 36em;
+  font-size: 12px !important;
+}
+
+.odt-footer {
+  text-align: center;
+}
+
+.navbar-nav {
+  background-color: white;
+}
+
+.margin-acuerdos {
+padding: 0  !important;
+}
+
+} 
 
   /* headers 
 
