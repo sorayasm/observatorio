@@ -1,96 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Observatorio de Trabajo Decente</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" >
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" type="text/css" media="screen" href="src/css/home.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css">
 </head>
+
 <body>
 	<header>
-			<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<nav class="navbar navbar-expand-lg navbar-light  fixed-top fixed-top">
-								<div class="container">
-										<a class="navbar-brand" href="#">
-										<img class="logo" src="assets/img/logo.png" alt="Observatorio de Trabajo Decente">
-									</a>
-									<button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#navbarContent">
-											<i class="fas fa-bars fa-1x "></i>
-									</button>
-								<div class="collapse navbar-collapse" id="navbarContent">
-									<ul class="navbar-nav text-center ">
-												<li class="nav-item dropdown">
-													<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														Observatorio
-													</a>
-													<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-														<a class="dropdown-item" href="src/observatorio/about.html">Quiénes Somos</a>
-														<a class="dropdown-item" href="src/observatorio/concepto.html">¿Qué es Trabajo Decente?</a>
-														<a class="dropdown-item" href="src/observatorio/dimensiones.html">¿Cómo se mide?</a>
-														<a class="dropdown-item" href="src/observatorio/contacto.html">Contacto</a>
-													</div>
-												</li>
-												<li class="nav-item dropdown">
-														<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-															Visualizaciones
-														</a>
-														<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-															<a class="dropdown-item"  href="src/visualizaciones/oportunidades-de-empleo.html">Oportunidades de Empleo</a>
-															<a class="dropdown-item" href="src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html">Ingresos Adecuados y Trabajo Productivo</a>
-															<a class="dropdown-item" href="src/visualizaciones/tiempo-de-trabajo-decente.html">Tiempo de Trabajo Decente</a>
-															<a class="dropdown-item" href="src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html">Combinando Trabajo, Familia y Vida personal</a>
-															<a class="dropdown-item" href="src/visualizaciones/trabajo-que-debe-ser-abolido.html">Trabajo que debe ser abolido</a>
-															<a class="dropdown-item" href="src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html">Estabilidad y Seguridad del Trabajo</a>
-															<a class="dropdown-item" href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html">Igualdad de oportunidades y trato en el Trabajo</a>
-															<a class="dropdown-item" href="src/visualizaciones/ambiente-de-trabajo-seguro.html">Ambiente de Trabajo Seguro</a>
-															<a class="dropdown-item" href="src/visualizaciones/seguridad-social.html">Seguridad Social</a>
-															<a class="dropdown-item" href="src/visualizaciones/dialogo-social.html">Diálogo Social</a>
-														</div>
-													</li>
-													<li class="nav-item dropdown">
-														<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-															Datos
-														</a>
-														<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-															<a class="dropdown-item" href="src/datos/datasets.html">DataSets</a>
-															<a class="dropdown-item" href="src/datos/fuentes-de-datos.html">Fuentes de Datos</a>
-														</div>
-													</li>
-													<li class="nav-item ">
-														<a class="nav-link" href="src/radiografias.html">Radiografías</a>
-													</li>
-													<!-- <li class="nav-item ">
-														<a class="nav-link" href="src/acuerdos.html">Seguimiento de Acuerdos</a>
-													</li> -->
-													<li class="nav-item ">
-														<a class="nav-link" href="src/noticias.html">Noticias</a>
-													</li>
-													<li class="nav-item" >
-														<a class="nav-link"  href="https://www.facebook.com/Observatorio-Trabajo-Decente-372841016690923/" target="_blank"><i class="pl-2 pr-2 fab fa-facebook-f"></i></a>
-													</li>
-													<li class="nav-item" >
-														<a class="nav-link"  href="https://twitter.com/ObsTrabDecente" target="_blank" ><i class="pl-2 pr-2 fab fa-twitter"></i></a>
-													</li>
-													<li class="nav-item" >
-														<a class="nav-link" href="https://www.linkedin.com/company/observatorio-de-trabajo-decente/about/" target="_blank"><i class="pl-2 pr-2 fab fa-linkedin-in"></i></a>
-													</li>
-											</ul>
-									</div>
-								</div>
-							</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light  fixed-top fixed-top">
+						<div class="container">
+							<a class="navbar-brand" href="#">
+								<img class="logo" src="assets/img/logo.png" alt="Observatorio de Trabajo Decente">
+							</a>
+							<button class="navbar-toggler mx-5" type="button" data-toggle="collapse"
+								data-target="#navbarContent">
+								<i class="fas fa-bars fa-1x "></i>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarContent">
+								<ul class="navbar-nav text-center ">
+									<li class="nav-item ">
+										<a class="nav-link" href="#">Inicio</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Observatorio
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="src/observatorio/about.html">Quiénes
+												Somos</a>
+											<a class="dropdown-item" href="src/observatorio/concepto.html">¿Qué es
+												Trabajo Decente?</a>
+											<a class="dropdown-item" href="src/observatorio/dimensiones.html">¿Cómo se
+												mide?</a>
+											<a class="dropdown-item" href="src/observatorio/contacto.html">Contacto</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Visualizaciones
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item"
+												href="src/visualizaciones/oportunidades-de-empleo.html">Oportunidades de
+												Empleo</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html">Ingresos
+												Adecuados y Trabajo Productivo</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/tiempo-de-trabajo-decente.html">Tiempo de
+												Trabajo Decente</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html">Combinando
+												Trabajo, Familia y Vida personal</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/trabajo-que-debe-ser-abolido.html">Trabajo que
+												debe ser abolido</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html">Estabilidad
+												y Seguridad del Trabajo</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html">Igualdad
+												de oportunidades y trato en el Trabajo</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/ambiente-de-trabajo-seguro.html">Ambiente de
+												Trabajo Seguro</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/seguridad-social.html">Seguridad Social</a>
+											<a class="dropdown-item"
+												href="src/visualizaciones/dialogo-social.html">Diálogo Social</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Datos
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="src/datos/datasets.html">DataSets</a>
+											<a class="dropdown-item" href="src/datos/fuentes-de-datos.html">Fuentes de
+												Datos</a>
+										</div>
+									</li>
+									<li class="nav-item ">
+										<a class="nav-link" href="src/radiografias.html">Radiografías</a>
+									</li>
+									<!-- <li class="nav-item ">
+											<a class="nav-link" href="src/acuerdos.html">Seguimiento de Acuerdos</a>
+										</li> -->
+									<li class="nav-item ">
+										<a class="nav-link" href="src/noticias.html">Noticias</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link"
+											href="https://www.facebook.com/Observatorio-Trabajo-Decente-372841016690923/"
+											target="_blank"><i class="pl-2 pr-2 fab fa-facebook-f"></i></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="https://twitter.com/ObsTrabDecente" target="_blank"><i
+												class="pl-2 pr-2 fab fa-twitter"></i></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link"
+											href="https://www.linkedin.com/company/observatorio-de-trabajo-decente/about/"
+											target="_blank"><i class="pl-2 pr-2 fab fa-linkedin-in"></i></a>
+									</li>
+								</ul>
+							</div>
 						</div>
-					</div>
-				</div>	
+					</nav>
+				</div>
+			</div>
+		</div>
 	</header>
 	<main role="main">
-		<section class="main">  
+		<section class="main">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
@@ -102,33 +140,41 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-										<img src="assets/img/headers/que es trabajo decente.jpg" alt="qué es trabajo decente">
+									<img src="assets/img/headers/que es trabajo decente.jpg"
+										alt="qué es trabajo decente">
 									<div class="container">
-									<div class="carousel-caption  d-none d-md-block">
-										<h1>¿Qué es el Trabajo Decente?</h1>
-										<p class="bg-carousel">La oportunidad de acceder a un empleo con ingreso justo, igualdad de oportunidades y trato para todos.</p>
-										<p><a class="btn btn-lg btn-primary" href="src/observatorio/concepto.html" role="button">Descubre más</a></p>
-									</div>
+										<div class="carousel-caption  d-none d-md-block">
+											<h1>¿Qué es el Trabajo Decente?</h1>
+											<p class="bg-carousel">La oportunidad de acceder a un empleo con ingreso
+												justo, igualdad de oportunidades y trato para todos.</p>
+											<p><a class="btn btn-lg btn-primary" href="src/observatorio/concepto.html"
+													role="button">Descubre más</a></p>
+										</div>
 									</div>
 								</div>
 								<div class="carousel-item">
-										<img src="assets/img/headers/que es observatorio.jpg" alt="qué es el observatorio">
+									<img src="assets/img/headers/que es observatorio.jpg" alt="qué es el observatorio">
 									<div class="container">
-									<div class="carousel-caption  d-none d-md-block">
-										<h1>¿Qué es el Observatorio de Trabajo Decente? </h1>
-										<p class="bg-carousel">Es una iniciativa chilena que busca facilitar el acceso a información sobre el trabajo decente en Chile.</p>
-										<p><a class="btn btn-lg btn-primary" href="src/observatorio/about.html" role="button">¡Conócenos!</a></p>
-									</div>
+										<div class="carousel-caption  d-none d-md-block">
+											<h1>¿Qué es el Observatorio de Trabajo Decente? </h1>
+											<p class="bg-carousel">Es una iniciativa chilena que busca facilitar el
+												acceso a información sobre el trabajo decente en Chile.</p>
+											<p><a class="btn btn-lg btn-primary" href="src/observatorio/about.html"
+													role="button">¡Conócenos!</a></p>
+										</div>
 									</div>
 								</div>
 								<div class="carousel-item">
-										<img src="assets/img/headers/que puedo encontrar.jpg" alt="qué puedo encontrar">
+									<img src="assets/img/headers/que puedo encontrar.jpg" alt="qué puedo encontrar">
 									<div class="container">
-									<div class="carousel-caption  d-none d-md-block">
-										<h1>¿Qué puedo encontrar en el Observatorio?</h1>
-										<p class="bg-carousel">Somos un portal de datos abiertos e información sobre el  Trabajo Decente en Chile.</p>
-										<p><a class="btn btn-lg btn-primary" href="src/observatorio/dimensiones.html" role="button">Ir a visualizaciones</a></p>
-									</div>
+										<div class="carousel-caption  d-none d-md-block">
+											<h1>¿Qué puedo encontrar en el Observatorio?</h1>
+											<p class="bg-carousel">Somos un portal de datos abiertos e información sobre
+												el Trabajo Decente en Chile.</p>
+											<p><a class="btn btn-lg btn-primary"
+													href="src/observatorio/dimensiones.html" role="button">Ir a
+													visualizaciones</a></p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -138,121 +184,173 @@
 						<h2 class="pt-5">Buscar</h2>
 						<div class=" d-flex justify-content-center mt-3  mb-3">
 							<div class="form-group form-inline">
-								<input class="form-control"  type="text" id="search" placeholder="¿Qué quieres buscar?">
+								<input class="form-control" type="text" id="search" placeholder="¿Qué quieres buscar?">
 							</div>
-								<div id="match-list"></div>
+							<div id="match-list"></div>
 						</div>
 					</div>
 					<div class="col-12 margin-acuerdos  mb-5 text-center">
 						<h2>Dimensiones de evaluación del Trabajo de Decente</h2>
-						  <div class="row ten-columns margin mt-5 mb-5 d-flex justify-content-center">
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+						<div class="row ten-columns margin mt-5 mb-5 d-flex justify-content-center">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/oportunidades-de-empleo.html">
 											<h4 class="text-black text-overflow">Desempleo</h4>
-											<div data-percent="7"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Desempleo.png' alt=''>"  class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">7,0%  es la Tasa de Desocupación de 2018</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/oportunidades-de-empleo.html" role="button">ver más</a>
+											<div data-percent="7"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Desempleo.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">7,0% es la Tasa de Desocupación de 2018</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/oportunidades-de-empleo.html" role="button">ver
+											más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center" >
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html">
 											<h4 class="text-black text-overflow">Salario</h4>
-											<div data-percent="17" data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Salario.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">17,1% es la Tasa de Pobreza Laboral de 2017</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html" role="button">ver más</a>
+											<div data-percent="17"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Salario.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">17,1% es la Tasa de Pobreza Laboral de 2017</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html"
+											role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/tiempo-de-trabajo-decente.html">
 											<h4 class="text-black text-overflow">Jornada</h4>
-											<div data-percent="13"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Jornada.png' alt=''>"  class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">13,7% de Ocupados en Tiempo de Trabajo Excesivo en 2018</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/tiempo-de-trabajo-decente.html" role="button">ver más</a>
+											<div data-percent="13"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Jornada.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">13,7% de Ocupados en Tiempo de Trabajo Excesivo en
+											2018</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/tiempo-de-trabajo-decente.html" role="button">ver
+											más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html">
 											<h4 class="text-black text-overflow">Tiempo Libre</h4>
-											<div data-percent="0"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-TiempoLibre.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">Sin Indicador Oficial</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html" role="button">ver más</a>
+											<div data-percent="0"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-TiempoLibre.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">Sin Indicador Oficial</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html"
+											role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/trabajo-que-debe-ser-abolido.html">
 											<h4 class="text-black text-overflow">Explotación</h4>
-											<div data-percent="6"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Explotacion.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">6,6% es la Tasa de Trabajo Infantil en 2012</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/trabajo-que-debe-ser-abolido.html" role="button">ver más</a>
+											<div data-percent="6"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Explotacion.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">6,6% es la Tasa de Trabajo Infantil en 2012</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/trabajo-que-debe-ser-abolido.html"
+											role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html">
 											<h4 class="text-black text-overflow">Estabilidad</h4>
-											<div data-percent="3"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Estabilidad.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">3,9% es la Tasa de Empleo Precario en 2018</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html" role="button">ver más</a>
+											<div data-percent="3"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Estabilidad.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">3,9% es la Tasa de Empleo Precario en 2018</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html"
+											role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
-								  <div class="card-box widget-box-one mb-5">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
-										<a href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html">
+										<a
+											href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html">
 											<h4 class="text-black text-overflow">Género</h4>
-											<div data-percent="41"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Genero.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">41,4% es la proporción de mujeres en el empleo en 2018</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html" role="button">ver más</a>
+											<div data-percent="41"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Genero.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">41,4% es la proporción de mujeres en el empleo en
+											2018</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html"
+											role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/ambiente-de-trabajo-seguro.html">
-										<h4 class="text-black text-overflow">Accidentes</h4>
-										<div data-percent="0"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Accidentes.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
+											<h4 class="text-black text-overflow">Accidentes</h4>
+											<div data-percent="0"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Accidentes.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
 										<p class="title-dimensiones">Sin indicador</p>
-											<a class="btn btn-sm btn-yellow" href="src/visualizaciones/ambiente-de-trabajo-seguro.html" role="button">ver más</a>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/ambiente-de-trabajo-seguro.html" role="button">ver
+											más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/seguridad-social.html">
 											<h4 class="text-black text-overflow">Seguridad Social</h4>
-											<div data-percent="34"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Seguridad-social.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">34,3% es porcentaje de la población de 65 o más con pensión en 2017</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/seguridad-social.html" role="button">ver más</a>
+											<div data-percent="34"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Seguridad-social.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">34,3% es porcentaje de la población de 65 o más con
+											pensión en 2017</p>
+										<a class="btn btn-sm btn-yellow"
+											href="src/visualizaciones/seguridad-social.html" role="button">ver más</a>
 									</div>
 								</div>
-							  </div>
-							  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 text-center">
 								<div class="card-box widget-box-one mb-5">
 									<div class="wigdet-one-content">
 										<a href="src/visualizaciones/dialogo-social.html">
 											<h4 class="text-black text-overflow"> Diálogo social</h4>
-											<div data-percent="0"  data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Dialogo-social.png' alt=''>" class="yellow percircle animate d-inline-block"></div></a>
-											<p class="title-dimensiones">Sin indicador</p>
-												<a class="btn btn-sm btn-yellow" href="src/visualizaciones/dialogo-social.html" role="button">ver más</a>
+											<div data-percent="0"
+												data-text="<img class='iconos-dimensiones' src='assets/img/icons/iconos-Dialogo-social.png' alt=''>"
+												class="yellow percircle animate d-inline-block"></div>
+										</a>
+										<p class="title-dimensiones">Sin indicador</p>
+										<a class="btn btn-sm btn-yellow" href="src/visualizaciones/dialogo-social.html"
+											role="button">ver más</a>
 									</div>
 								</div>
 							</div>
@@ -276,24 +374,36 @@
 			<div class="col-12 col-sm-4 text-center">
 				<p class="footer-title">Proyecto apoyado por </p>
 				<a href="https://www.lab.gob.cl">
-				<img class="logo-lab" src="assets/img/logo-lab.svg" alt="Laboratorio de Gobierno Chile">
+					<img class="logo-lab" src="assets/img/logo-lab.svg" alt="Laboratorio de Gobierno Chile">
+				</a>
+				<a href="https://innovadorespublicos.cl/">
+					<img class="logo-red" src="assets/img/logo-red.svg" alt="Red de Innovadores Públicos">
 				</a>
 			</div>
 			<div class="col-12 col-sm-4 text-center">
-			<p class="footer-title">Estamos en:</p>
-			<br>
-			<a href="https://www.facebook.com/Observatorio-Trabajo-Decente-372841016690923/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-			<a href="https://twitter.com/ObsTrabDecente" target="_blank" ><i class="fab fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/company/observatorio-de-trabajo-decente/about/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
-			<a href="src/observatorio/contacto.html" ><i class="fas fa-envelope"></i></a>  
+				<p class="footer-title">Estamos en:</p>
+				<br>
+				<a href="https://www.facebook.com/Observatorio-Trabajo-Decente-372841016690923/" target="_blank"><i
+						class="fab fa-facebook-f"></i></a>
+				<a href="https://twitter.com/ObsTrabDecente" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/observatorio-de-trabajo-decente/about/" target="_blank"><i
+						class="fab fa-linkedin-in"></i></a>
+				<a href="src/observatorio/contacto.html"><i class="fas fa-envelope"></i></a>
 			</div>
 		</div>
 	</footer>
 	<!--  Scripts-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 	<script src="src/js/percircle.js"></script>
 	<script src="src/js/index.js"></script>
 </body>
+
 </html>
