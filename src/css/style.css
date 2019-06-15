@@ -192,7 +192,7 @@ nav {
   /* Hero page*/
   .hero-page {
     height: 350px;
-    background: url(https://source.unsplash.com/collection/4558413) no-repeat center center fixed; 
+    background: url(https://source.unsplash.com/collection/4558413) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -351,9 +351,20 @@ padding: 0  !important;
 
 } 
 
-  /* headers 
+  /* headers */
 
-  .bg-empleo-categoria-ocupacional{
-      background: url(../../assets/img/headers/empleo\ por\ categoria\ ocupacional.jpf) no-repeat center center fixed; 
+  .header-radiografias{
+      background: url(../../assets/img/headers/R---Huelga.jpg) no-repeat center center fixed; 
   }
-*/
+
+  .header-trabajadoracasa{
+    background: url(../../assets/img/headers/R---Trabajadora-casa-particular-1.jpg) no-repeat center center fixed; 
+  }
+
+  .header-leyinclusion{
+      background: url(../../assets/img/headers/R-inclusion-1.jpg) no-repeat center center fixed; 
+  }
+
+  .header-brechagenero{
+    background: url(../../assets/img/headers/brechasalarialdegenero.jpg) no-repeat center center fixed; 
+}

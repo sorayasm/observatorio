@@ -1,0 +1,782 @@
+[
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2015",
+    "file_type": "sav",
+    "file_year": 2015,
+    "file_description": "Encuesta CASEN 2015",
+    "file_link": "https://drive.google.com/file/d/1gmBF4tOzziG_c5W5JqDal78MOAaTZXv0/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2017",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta CASEN 2017",
+    "file_link": "https://drive.google.com/file/d/1fTWWzEl7KqeU6C847z6-qSiy_4gCeDBf/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2013",
+    "file_type": "sav",
+    "file_year": 2013,
+    "file_description": "Encuesta CASEN 2013 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/12QT3L6zH1TiGzUK7IaqavHzDq2GSIOSG/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2006",
+    "file_type": "sav",
+    "file_year": 2006,
+    "file_description": "Encuesta CASEN 2006",
+    "file_link": "https://drive.google.com/file/d/15xEBuJS_2fXEYcNtCyihdoU64oHntn2B/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2009",
+    "file_type": "sav",
+    "file_year": 2009,
+    "file_description": "Encuesta CASEN 2009",
+    "file_link": "https://drive.google.com/file/d/13hxItuCnvA0CLF2Ta31QXW5ptf6MeBQr/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN 2011",
+    "file_type": "sav",
+    "file_year": 2011,
+    "file_description": "Encuesta CASEN 2011",
+    "file_link": "https://drive.google.com/file/d/1m4ZyN9oEsWyt5g_uSQjASIIrmSLMZdqU/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN Ingresos 2006",
+    "file_type": "sav",
+    "file_year": 2006,
+    "file_description": "Encuesta CASEN 2006 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/1xKjUG8FiUck1QCsbF0znO-MC5JDAgAnj/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN Ingresos 2009",
+    "file_type": "sav",
+    "file_year": 2009,
+    "file_description": "Encuesta CASEN 2009 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/10IRv5VbxKciya-fWaIeVmcJZD6r_H23K/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "CASEN Ingresos 2011",
+    "file_type": "sav",
+    "file_year": 2011,
+    "file_description": "Encuesta CASEN 2011 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/1T8acPYkWvLGgCB92iPV686ewbZyBCoIP/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro códigos base complementaria ingresos y subsidios ajustados Casen 2006_18feb13_final",
+    "file_type": "pdf",
+    "file_year": 2006,
+    "file_description": "Encuesta CASEN 2006",
+    "file_link": "https://drive.google.com/file/d/12ch5P_Fwek95xeOpXWY8GOQ_A2GRIx7E/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro códigos base complementaria ingresos y subsidios ajustados Casen 2009_18feb13_final",
+    "file_type": "pdf",
+    "file_year": 2009,
+    "file_description": "Encuesta CASEN 2009",
+    "file_link": "https://drive.google.com/file/d/1fmCuucyxGdlG1_KL-iqtVc4r3aahCvVJ/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro de Codigos Casen 2011 Base ingresos Nueva metodologia",
+    "file_type": "pdf",
+    "file_year": 2011,
+    "file_description": "Encuesta CASEN 2011 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/1PMz3FWn9nEqfBEuYEdAHJgCNsnmfVO6u/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro de Codigos Casen 2013 Base Principal Metodologia Nueva",
+    "file_type": "pdf",
+    "file_year": 2013,
+    "file_description": "Encuesta CASEN 2013 Metodología Nueva",
+    "file_link": "https://drive.google.com/file/d/1yCMaCwwBF2ldGrzvfse5wkRnhLRgZTS3/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro de Códigos CASEN 2015",
+    "file_type": "pdf",
+    "file_year": 2015,
+    "file_description": "Encuesta CASEN 2015",
+    "file_link": "https://drive.google.com/file/d/1KhAsBKbM2dgTrjHvUVuv4hEcgA18aNQI/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro de Códigos CASEN 2017",
+    "file_type": "pdf",
+    "file_year": 2017,
+    "file_description": "Encuesta CASEN 2017",
+    "file_link": "https://drive.google.com/file/d/1IIBABB3ZOwvPASNFSgyvs2serodUm27N/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Libro de códigos base principal Casen octubre 2011 enero 2012 05032014",
+    "file_type": "pdf",
+    "file_year": 2011,
+    "file_description": "Encuesta CASEN",
+    "file_link": "https://drive.google.com/file/d/1pEPxvyIsTLLxnMFuGwN1g1Eq_d5YtPkg/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Manual del Investigador",
+    "file_type": "pdf",
+    "file_year": 2012,
+    "file_description": "Encuesta CASEN 2012",
+    "file_link": "https://drive.google.com/file/d/1mNl-MkTgwrKSdubmBdLKi1z8tmyaOWZX/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Manual Usuario CASEN 2006",
+    "file_type": "pdf",
+    "file_year": 2006,
+    "file_description": "Encuesta CASEN 2006",
+    "file_link": "https://drive.google.com/file/d/1OSbvacG79gl6KFp97xkDaypaf7lqliho/view?usp=sharing"
+  },
+  {
+    "source_name": "CASEN",
+    "source_description": "Encuesta de Caracterización Socioeconómica Nacional (CASEN)",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/casen/panorama_casen.php",
+    "file_name": "Manual Usuario CASEN 2009",
+    "file_type": "pdf",
+    "file_year": 2009,
+    "file_description": "Encuesta CASEN 2009",
+    "file_link": "https://drive.google.com/file/d/1lmqGKx6eS_TpfrCpYkOSpWX6VuICGes3/view?usp=sharing"
+  },
+  {
+    "source_name": "DEIS",
+    "source_description": "Dirección de Estadística e Información de Salud (DEIS)",
+    "source_link": "www.deis.cl/",
+    "file_name": "Accidentes laborales fatales 2007-2016",
+    "file_type": "xlsx",
+    "file_year": "2007-2016",
+    "file_description": "Accidentes laborales fatales 2007-2016 DEIS MINSAL",
+    "file_link": "https://drive.google.com/file/d/1OlAOa-6-WKLiHnSgd1mMStXr-Zji94X0/view?usp=sharing"
+  },
+  {
+    "source_name": "DT",
+    "source_description": "Dirección del Trabajo",
+    "source_link": "https://www.dt.gob.cl/",
+    "file_name": "26a10",
+    "file_type": "xlsx",
+    "file_year": 2018,
+    "file_description": "Entrega sin RUT Dirección del Trabajo",
+    "file_link": "https://drive.google.com/file/d/1kuLLCB9klGKxaJMEzfy3X0u9Ixxvwgzq/view?usp=sharing"
+  },
+  {
+    "source_name": "DT",
+    "source_description": "Dirección del Trabajo",
+    "source_link": "https://www.dt.gob.cl/",
+    "file_name": "Glosario Variables ODT",
+    "file_type": "xlsx",
+    "file_year": 2018,
+    "file_description": "Dirección del Trabajo",
+    "file_link": "https://drive.google.com/file/d/1e2kdtapQGgpaTis5B1ZRitniPnoqO_a6/view?usp=sharing"
+  },
+  {
+    "source_name": "DT",
+    "source_description": "Dirección del Trabajo",
+    "source_link": "https://www.dt.gob.cl/",
+    "file_name": "CUT 2018",
+    "file_type": "xls",
+    "file_year": 2018,
+    "file_description": "Dirección del Trabajo",
+    "file_link": "https://drive.google.com/file/d/1k5f3JXHJCqgR63zXwv4MXaC9AmQcOkh0/view?usp=sharing"
+  },
+  {
+    "source_name": "DT",
+    "source_description": "Dirección del Trabajo",
+    "source_link": "https://www.dt.gob.cl/",
+    "file_name": "245_(RL)_(NC)_Reprocesamiento-Rama-Region_Trabajadores_012010-122018_(11062019)_CG",
+    "file_type": "xlsx",
+    "file_year": "2010 - 2018",
+    "file_description": "Dirección del Trabajo",
+    "file_link": "https://drive.google.com/open?id=1TEx0Jm951jX77hg6aNcjdy0Gj3EEjeZq"
+  },
+  {
+    "source_name": "DT",
+    "source_description": "Dirección del Trabajo",
+    "source_link": "https://www.dt.gob.cl/",
+    "file_name": "241_OOSS2018_Comp_2017_2010_Envio",
+    "file_type": "xlsx",
+    "file_year": "2010 - 2017",
+    "file_description": "Dirección del Trabajo",
+    "file_link": "https://drive.google.com/file/d/1LE_rS8e3qp0pbmZv8cov3FL-iIYyX782/view?usp=sharing"
+  },
+  {
+    "source_name": "EANNA",
+    "source_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/enc_eanna.php",
+    "file_name": "Base_Principal_26062013_sav",
+    "file_type": "sav",
+    "file_year": 2013,
+    "file_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "file_link": "https://drive.google.com/file/d/1d7iKqISZ6KQUay1K2EAplnGFMhl-8Hi4/view?usp=sharing"
+  },
+  {
+    "source_name": "EANNA",
+    "source_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/enc_eanna.php",
+    "file_name": "Libro de codigos EANNA_2012_parteI26062013",
+    "file_type": "pdf",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "file_link": "https://drive.google.com/file/d/1dWrIw8DHrC5smURG7T5CoqIaPuBGXVoS/view?usp=sharing"
+  },
+  {
+    "source_name": "EANNA",
+    "source_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/enc_eanna.php",
+    "file_name": "Libro de codigos EANNA_2012_parteII26062013",
+    "file_type": "pdf",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "file_link": "https://drive.google.com/file/d/1qDPXwB8FVncQDD89304_plHEQ86iJhG7/view?usp=sharing"
+  },
+  {
+    "source_name": "EANNA",
+    "source_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "source_link": "http://observatorio.ministeriodesarrollosocial.gob.cl/enc_eanna.php",
+    "file_name": "Taller_EANNA 2012_Trabajo Infantil_Noviembre2013",
+    "file_type": "pdf",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional Sobre Actividades de Niños, Niñas y Adolescentes",
+    "file_link": "https://drive.google.com/file/d/1nrOMPqCiMfiCosBmN9aFQNOkpZ6rAaNZ/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2017 02 EFM",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1HLJxT4KVFQSnkZhnNdZYJZU38pnQls4l/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2017 05 AMJ",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/open?id=1HSF55kDDJnzyyJ8dEfTFQrvtxSbBzncP/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2017 08 JAS",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/open?id=1-ghPYLAS6R7bkYftUZ4AaG5Q7KmJcyVQ/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2017 11 OND",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/open?id=1qDHBsTmDZBwvtejBTNELmJnPlBy8BVk3/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2018 02 EFM",
+    "file_type": "sav",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1pOwHWfFqV-V2e1tze4mYyuOJUd449zRM/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2018 05 AMJ",
+    "file_type": "sav",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1WlRFlHMPDuXCUubfQKJ5kOFwIGnE2ZYv/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2018 08 JAS",
+    "file_type": "sav",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/17QZQjeB5tWhm1VViTgADIkIrirefg15Z/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "ENE 2018 11 OND",
+    "file_type": "sav",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1U6yeCns-1n62pDXlPAUrx2TjczW-9bIH/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "Libro de Códigos Base ENE 2018",
+    "file_type": "pdf",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1QpRmE6WBRtoCeLDC9J9qTQkWZRN7WMrl/view?usp=sharing"
+  },
+  {
+    "source_name": "ENE",
+    "source_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ene",
+    "file_name": "Libro de Códigos Base ENE 2019",
+    "file_type": "pdf",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/16qYA_RSwfZ1kDF5fIAcTQMuvSTsyoze9/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Base_Personas_NESI_2010_Usuarios_Externos_Con_Becas",
+    "file_type": "sav",
+    "file_year": 2010,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1yyKHJ7u0TkWGvg12p417U-e_TZh3l5QX/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Base_Personas_NESI_2011_Usuarios_Externos_Con_Becas",
+    "file_type": "sav",
+    "file_year": 2011,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/10D4ACjAT4VqXn2F1I13W_P-bByfgfp4K/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Base_Personas_NESI_2012_Usuarios_Externos_Con_Becas",
+    "file_type": "sav",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/14h4Xv9HEJZGXTBj35hDNVApLV1TATQjF/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "BBDD_Sueldo_Minimo",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1PLw9K9TH_t8xCR7SIPARt1KsXmG-DtEe/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2010",
+    "file_type": "sav",
+    "file_year": 2010,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1m5oD-B-jIlOoNPUXD6R9-Tq1YKwADe0d/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2011",
+    "file_type": "sav",
+    "file_year": 2011,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1HrbKC1eQJc-WwCNw6DMAym1ESlnaiHNs/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2012",
+    "file_type": "sav",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1O3HOc1IGw631ifjE0S1geFVd4_B4ZOHw/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2013",
+    "file_type": "sav",
+    "file_year": 2013,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1MmWfZkrI77uWEkbwtOWDOmVmvhjMuCpY/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2014",
+    "file_type": "sav",
+    "file_year": 2014,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1ZEJYoWQJjOP4w1aPpI2JLDy13kEdyTHQ/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2015",
+    "file_type": "sav",
+    "file_year": 2015,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1YecfbAzl0aJjnyUpOR03Irufc22eauX2/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2016",
+    "file_type": "sav",
+    "file_year": 2016,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1xZp_o5qOeW2AGONN2FWDLWOt_RKv1FnY/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2017",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1ey22U2MP50tnCl0TjHXiNUekpKWlGrC5/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2015_PERSONAS _USUARIOSEXTERNOS",
+    "file_type": "sav",
+    "file_year": 2015,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1SzyK7iH4CFwKQUlljnhgMWtafMc-fGnT/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2016_PERSONAS _USUARIOSEXTERNOS",
+    "file_type": "sav",
+    "file_year": 2016,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1lCJ_wroFUNZhz55U34h9n0zv5pDUduaB/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "ESI_2017_PERSONAS _USUARIOSEXTERNOS",
+    "file_type": "sav",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1FaA2jVph-o3m_8NpXBuohwNP_HK86jy8/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2012_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2012,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1Lubwcg-5TdD0u79fx9APgDUCqjqWPMzF/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2013_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2013,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/16JzfMYFc-0ifV2_TL98a2zngJ_m2Koea/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2014_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2014,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1XxTP8Uiyy8H805sdrts4uHVwTQJA0yCx/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2015_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2015,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1iYvujdIDNekBkH8g5sDI5w26b-d4TMx9/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2016_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2016,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1jlezoDDk5_xRzQT28zL_LIZ5gYe5ovsN/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "Manual_ESI_2017_Personas_Externo",
+    "file_type": "pdf",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1qUcQBE0ed6JkkDHSF7qjyisVZDkZ16zg/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "NESI_2013_PERSONAS _USUARIOSEXTERNOS",
+    "file_type": "sav",
+    "file_year": 2013,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1GVi_vJq_ESAskgx6scjrXVKBbMX-bplP/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "NESI_2014_PERSONAS _USUARIOSEXTERNOS",
+    "file_type": "sav",
+    "file_year": 2014,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/10sLHP2ljEz0RB3tlR0tS2AMkKq2J261k/view?usp=sharing"
+  },
+  {
+    "source_name": "ESI",
+    "source_description": "Encuesta Suplementaria de Ingresos (ESI) - Módulo complementario que se aplica dentro de la Encuesta Nacional de Empleo (ENE) -INE",
+    "source_link": "https://www.ine.cl/estadisticas/ingresos-y-gastos/esi",
+    "file_name": "serie-historica-empalmada-ipc-diciembre-2009-a-la-fecha-xls",
+    "file_type": "xlsx",
+    "file_year": "2009 a la fecha",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1L6q4hancm8GKX7NBftDmO75fDOS1eW63/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Año 2016 Rectificada",
+    "file_type": "csv",
+    "file_year": 2016,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/10-2FW-YArGKLZesN4JNGMvgmqHLpQkzC/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Año 2017 Rectificada",
+    "file_type": "csv",
+    "file_year": 2017,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1cvc9nfrDmD0tR5OcSkpiNTAmuy7NWklI/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Año 2018 Rectificada",
+    "file_type": "csv",
+    "file_year": 2018,
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1IlwlATBLFJwzIFoAdTY3yGKN0j_v8q3k/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Diccionario de Datos",
+    "file_type": "doc",
+    "file_year": "",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1YXJT7W2w-7ovGpHMNqvyTtjyvdox5rKK/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Ponderadores",
+    "file_type": "csv",
+    "file_year": "",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1-mrqm-2kuZbLbyVnguk22FLieI_gVIUE/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "Rectificada",
+    "file_type": "mdb",
+    "file_year": "",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/1M7y_LWXp_u5L_Z3WRUHkoa_JhstdO_wW/view?usp=sharing"
+  },
+  {
+    "source_name": "IR",
+    "source_description": "Índice Nominal de Remuneraciones (IR)",
+    "source_link": "https://www.ine.cl/estadisticas/laborales/ir-icmo",
+    "file_name": "remuneraciones_ciiu3_referencial_junio2017",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Encuesta Nacional de Empleo (ENE) - INE",
+    "file_link": "https://drive.google.com/file/d/11EK3JD2X4JsRH4zPNlgxABx0ZBqnvff7/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-19253_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/12GG7JJsV9Ot_lxf8CGETh6Qr4Ab4x_s_/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-19276_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1AzGRAGBGfhPYkWBAU5ORIjIhcXAE0yCK/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-19308_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1_y9INE3NZCTJLbpc6M_7Oi6BwEPMrGSl/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-19354_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1_epq9ki7BTP4FMVKMeP9asxS-D5bCAyW/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-19426_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/14TcwTiRnX9c84UfuDV3z6laGGxr1fKe6/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-40200_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1pJfRde5qGWphXgttuAKT-alFbZnXTUVX/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-486224_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1_277jKlYATgNy6Nb2-of2zya8SPnVH3M/view?usp=sharing"
+  },
+  {
+    "source_name": "SUSESO",
+    "source_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "source_link": "http://www.suseso.cl/601/w3-channel.html",
+    "file_name": "articles-578205_archivo_01",
+    "file_type": "xlsx",
+    "file_year": "",
+    "file_description": "Superintendencia de Seguridad Social (SUSESO)",
+    "file_link": "https://drive.google.com/file/d/1T7GVStZCo_RYokW9EUm7UirpkgT-kNv-/view?usp=sharing"
+  }
+]
