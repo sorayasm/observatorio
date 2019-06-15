@@ -180,22 +180,22 @@
 	  "url": "src/indicadores/tasa-de-trabajo-forzado.html"
 	},
 	{
-	  "title": "Tasa de empleo precario (indicador principal)",
+	  "title": "Tasa de empleo precario",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tasa-de-empleo-precario.html"
 	},
 	{
-	  "title": "Tenencia de trabajo (indicador adicional)",
+	  "title":"Duración del Empleo",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tenencia-de-trabajo.html"
 	},
 	{
-	  "title": "Tasa de trabajadores de subsistencia (indicador adicional)",
+	  "title": "Tasa de trabajadores de subsistencia",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tasa-de-trabajo-infantil-no-peligroso-en-sus-peores-formas.html"
 	},
 	{
-	  "title": "Ingresos reales de trabajadores temporales (indicador adicional)",
+	  "title": "Ingresos reales de trabajadores temporales",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/ingresos-reales-de-trabajadores-temporales.html"
 	},
