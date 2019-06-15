@@ -365,6 +365,34 @@ padding: 0  !important;
       background: url(../../assets/img/headers/R-inclusion-1.jpg) no-repeat center center fixed; 
   }
 
-  .header-brechagenero{
-    background: url(../../assets/img/headers/brechasalarialdegenero.jpg) no-repeat center center fixed; 
+  .header-combinando{
+    background: url(../../assets/img/headers/combinando-trabajo-familia-y-vida-personal.jpg) no-repeat center center fixed; 
 }
+
+.header-ingresorealestrabtemp{
+  background: url(../../assets/img/headers/ingresos-reales-de-trabajadores-temporals.jpg) no-repeat center center fixed; 
+}
+
+.header-participacionfemenina{
+  background: url(../../assets/img/headers/participacion-femenina-en-la-gerencia-media-y-superior.jpg) no-repeat center center fixed; 
+}
+
+.header-vejez{
+  background: url(../../assets/img/headers/Porcentaje-de-poblacion-superior-vejez.jpg) no-repeat center center fixed; 
+}
+
+.header-segregacionocupacional{
+  background: url(../../assets/img/headers/segregacion-ocupacional-por-sexo.jpg) no-repeat center center fixed; 
+}
+
+.header-empleoprecario{
+  background: url(../../assets/img/headers/tasa-de-empleo-precario_temporero.jpg) no-repeat center center fixed; 
+}
+
+.header-empleoforzado{
+  background: url(../../assets/img/headers/tasa-de-trabajo-forzado.jpg) no-repeat center center fixed; 
+}
+
+  /* .header-brechagenero{
+    background: url(../../assets/img/headers/brechasalarialdegenero.jpg) no-repeat center center fixed; 
+} */
