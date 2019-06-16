@@ -407,6 +407,28 @@ padding: 0  !important;
   background: url(../../assets/img/headers/D-Ingresos-adecuados-y-trabajo-productivo.jpg) no-repeat center center fixed; 
 }
 
+.header-tiempo{
+  background: url(../../assets/img/headers/D--tiempo-trabajo-decente) no-repeat center center fixed; 
+}
+
+.header-estabilidad{
+  background: url(../../assets/img/headers/D--estabilidad-y-seguridad-del-trabajo.jpg) no-repeat center center fixed; 
+}
+
+.header-seguridadsocial{
+  background: url(../../assets/img/headers/D-seguridad-social.jpg) no-repeat center center fixed; 
+}
+
+.header-ambiente{
+  background: url(../../assets/img/headers/D-ambiente-de-trabajo-seguro.jpg) no-repeat center center fixed; 
+}
+
+.header-abolido{
+  background: url(../../assets/img/headers/D--trabajo-que-debe-ser-abolido.jpg) no-repeat center center fixed; 
+}
+
+
+
 /* Data sets */
 
 #accordionSources .card {

@@ -31,21 +31,27 @@ fetch('../../assets/data/datasets.json')
 // div
 const accSources= document.getElementById('accordionSources');
 for (i = 0; i < sourcesNames.length; i++) { 
-    for (i = 0; i < sources.length; i++) 
-    accSources.innerHTML+=`
-    <div class="card">
-    <div class="card-header">
-      <a class="card-link" data-toggle="collapse" href="#`+ sourcesNames[i]+`">
-        `+ sourcesNames[i]+`
-      </a>
-    </div>
-    <div id="` + sourcesNames[i]+`" class="collapse" data-parent="#accordionSources">
-      <div class="card-body">
-      <p> `
-+
-      `</div>
-    </div>
-  </div>`
-}});
+    let source = Object.values(sources[sourcesNames[i]]);
+    for (j = 0; j < source.length; j++){
+        source_link = source[j].source_link;
+        source_description= source[j].source_description;
+    }
+        accSources.innerHTML+=`
+        <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#`+ sourcesNames[i]+`">
+            Fuente: `+ sourcesNames[i]+` <i class="fas fa-plus float-right"></i>
+          </a>
+        </div>
+        <div id="` + sourcesNames[i]+`" class="collapse" data-parent="#accordionSources">
+          <div class="card-body">
+          <p>`+ source_link + ` </p>
+          <p>`+ source_description + ` </p>
+          <p> Archivos: 
+          </div>
+        </div>
+      </div>`;
+    
+}})
 
 
