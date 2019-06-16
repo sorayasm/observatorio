@@ -13,8 +13,7 @@ window.addEventListener('scroll', function(event) {
 
 
 // Search
-const search_files = document.getElementById('search-files');
-const listFiles = document.getElementById('match-list-files');
+const listSources= document.getElementById('match-list-sources');
 
 // Get data and create lists
 fetch('../../assets/data/datasets.json')
@@ -22,18 +21,17 @@ fetch('../../assets/data/datasets.json')
     return response.json();
   })
   .then(function(data) {
-    const htmlDatasets = data.map(e => `
+        const htmlSources = data.map(e => `
         <div class="text-left bg-light">
             <div class="m-3 p-3">
-                <a href="${e.file_link} "><h4 class="mb-0 text-bold">${e.file_name}</h4></a>
+                <a href="${e.source_link} "><h4 class="mb-0 text-bold">${e.source_name}</h4></a>
+                <p>Descripción: ${e.source_description}</p>
+                <a href="${e.file_link} "><small>Archivo: ${e.file_name}</small></a>
                 <a class="btn btn-sm btn-primary float-right" href="${e.file_link} ">Descargar ${e.file_type}</a>
-                <a href="${e.source_link} "><small>Fuente: ${e.source_name}</small></a>
-                <p>Descripción: ${e.file_description}</p>
-                <p>Año: ${e.file_year}</p>
             </div>
         </div>
         `).join('')
-        listFiles.innerHTML = htmlDatasets;
+       listSources.innerHTML = htmlSources;
     });
 
 
