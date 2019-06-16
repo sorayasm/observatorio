@@ -101,9 +101,12 @@ input{
 }
 
 .img-formula {
-  width: 260px;
-  margin-bottom: 5em;
+  min-width: 260px;
+  width:40%;
+  padding-bottom: 5em;
 }
+
+
 
 
   .bottom {
@@ -408,7 +411,7 @@ padding: 0  !important;
 }
 
 .header-tiempo{
-  background: url(../../assets/img/headers/D--tiempo-trabajo-decente) no-repeat center center fixed; 
+  background: url(../../assets/img/headers/D--tiempo-trabajo-decente.jpg) no-repeat center center fixed; 
 }
 
 .header-estabilidad{
@@ -453,6 +456,10 @@ padding: 0  !important;
 
 .header-concepto{
   background: url(../../assets/img/headers/Que-es-Trabajo-Decente.jpg) center center fixed; 
+}
+
+.header-dialogosocial{
+  background: url(../../assets/img/headers/D-dialogo-social.jpg) center center fixed; 
 }
 
 
