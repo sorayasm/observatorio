@@ -113,6 +113,12 @@ input{
   .icon-width {
     width: 60px;
   }
+
+  .iconos-dimensiones {
+    width: 60px;
+    margin-top: -15px;
+ }
+
   
   .margin {
     margin: 15px;
@@ -393,6 +399,6 @@ padding: 0  !important;
   background: url(../../assets/img/headers/tasa-de-trabajo-forzado.jpg) no-repeat center center fixed; 
 }
 
-  /* .header-brechagenero{
-    background: url(../../assets/img/headers/brechasalarialdegenero.jpg) no-repeat center center fixed; 
-} */
+.header-oportunidades{
+  background: url(../../assets/img/headers/D-Oportunidades-de-empleo.jpg) no-repeat center center fixed; 
+}
