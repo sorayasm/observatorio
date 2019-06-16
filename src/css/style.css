@@ -427,6 +427,33 @@ padding: 0  !important;
   background: url(../../assets/img/headers/D--trabajo-que-debe-ser-abolido.jpg) no-repeat center center fixed; 
 }
 
+.header-noticias{
+  background: url(../../assets/img/headers/noticias.jpg) no-repeat center center fixed; 
+}
+
+.header-contacto{
+  background: url(../../assets/img/headers/contacto.jpg) no-repeat center center fixed; 
+}
+
+.header-about{
+  background: url(../../assets/img/headers/quienes-somos.jpg)  fixed; 
+}
+
+.header-dimensiones{
+  background: url(../../assets/img/headers/Como-se-mide-el-Trabajo-Decente.jpg) no-repeat center center fixed; 
+}
+
+.header-datasets{
+  background: url(../../assets/img/headers/data-sets.jpg) no-repeat center center fixed; 
+}
+
+.header-sources{
+  background: url(../../assets/img/headers/fuentes-de-datos.jpg) no-repeat center center fixed; 
+}
+
+.header-concepto{
+  background: url(../../assets/img/headers/Que-es-Trabajo-Decente.jpg) center center fixed; 
+}
 
 
 /* Data sets */
