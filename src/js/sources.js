@@ -12,8 +12,7 @@ window.addEventListener('scroll', function(event) {
 });
 
 
-// Search
-const listSources= document.getElementById('match-list-sources');
+
 
 // Get data and create lists
 fetch('../../assets/data/datasets.json')
@@ -21,17 +20,32 @@ fetch('../../assets/data/datasets.json')
     return response.json();
   })
   .then(function(data) {
-        const htmlSources = data.map(e => `
-        <div class="text-left bg-light">
-            <div class="m-3 p-3">
-                <a href="${e.source_link} "><h4 class="mb-0 text-bold">${e.source_name}</h4></a>
-                <p>Descripción: ${e.source_description}</p>
-                <a href="${e.file_link} "><small>Archivo: ${e.file_name}</small></a>
-                <a class="btn btn-sm btn-primary float-right" href="${e.file_link} ">Descargar ${e.file_type}</a>
-            </div>
-        </div>
-        `).join('')
-       listSources.innerHTML = htmlSources;
+
+   sources = data.reduce(function (r, a) {
+        r[a.source_name] = r[a.source_name] || [];
+        r[a.source_name].push(a);
+        return r;
     });
+    const sourcesNames =  Object.keys(sources).slice(8);
+
+// div
+const accSources= document.getElementById('accordionSources');
+for (i = 0; i < sourcesNames.length; i++) { 
+    for (i = 0; i < sources.length; i++) 
+    accSources.innerHTML+=`
+    <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#`+ sourcesNames[i]+`">
+        `+ sourcesNames[i]+`
+      </a>
+    </div>
+    <div id="` + sourcesNames[i]+`" class="collapse" data-parent="#accordionSources">
+      <div class="card-body">
+      <p> `
++
+      `</div>
+    </div>
+  </div>`
+}});
 
 

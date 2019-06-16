@@ -406,3 +406,18 @@ padding: 0  !important;
 .header-ingresosadecuados{
   background: url(../../assets/img/headers/D-Ingresos-adecuados-y-trabajo-productivo.jpg) no-repeat center center fixed; 
 }
+
+/* Data sets */
+
+#accordionSources .card {
+  width: 100%;
+  min-width: 300px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+div#accordionSources {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  margin-bottom:5em;
+}
