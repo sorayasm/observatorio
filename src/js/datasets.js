@@ -13,29 +13,30 @@ window.addEventListener('scroll', function(event) {
 
 
 // Search
-const searchFiles = document.getElementById('search-files');
-const listFiles = document.getElementById('match-list-files');
+$(document).ready(function() {
+  $('#files').DataTable( {
+    "paging":   false,
+    "ordering": false,
+    "info":     false,
+    "searching": false
+  } );
+} );
 
-// Get data 
+
+// // Get data and create lists
 fetch('../../assets/data/datasets.json')
   .then(function(response) {
     return response.json();
   })
   .then(function(data) {
-    let datasets = data;
+// datatable 
+const tableSource= document.getElementById('datatable-source');
+for (i = 0; i < data.length; i++){
+  tableSource.innerHTML  += `		
+    <td>`+ data[i].file_name + `</td>
+    <td>`+ data[i].file_description + `</td>
+    <td><a href="`+ data[i].file_link + `" target="_blank"><i class="fas fa-arrow-down"></i></a></td>
+  `}
 
-     // create list 
-    const htmlDatasets = datasets.map(e => `
-    <div class="text-left bg-light">
-        <div class="m-3 p-3">
-            <a href="${e.file_link} "><h4 class="mb-0">Archivo ${e.file_name}</h4></a>
-            <a class="btn btn-sm btn-primary float-right" href="${e.file_link} ">Descargar archivo ${e.file_type}</a>
-            <a href="${e.source_link} "><small>Fuente: ${e.source_name}</small></a><small>     Año: ${e.file_year}</small>
-            <p>Descripción: ${e.file_description}</p>
-        </div>
-    </div>
-    `).join('')
-
-    listFiles.innerHTML = htmlDatasets;
- });
+})
 

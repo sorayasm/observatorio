@@ -101,8 +101,8 @@ input{
 }
 
 .img-formula {
-  min-width: 260px;
-  width:50%;
+  min-width: 290px;
+  width:35%;
   padding-bottom: 5em;
 }
 
@@ -462,15 +462,6 @@ padding: 0  !important;
 
 /* Data sets */
 
-#accordionSources .card {
-  width: 100%;
-  min-width: 300px;
-  margin-bottom: 0px !important;
-  margin-top: 0px !important;
-}
-
-div#accordionSources {
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-  margin-bottom:5em;
+td.dataTables_empty {
+  display: none;
 }
