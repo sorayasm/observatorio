@@ -40,7 +40,7 @@ for (i = 0; i < filtered.length; i++){
   tableSource.innerHTML  += `		
     <td><a href="`+ filtered[i].source_link + `" ><h5>`+ filtered[i].source_name + `</h5></a></td>
     <td>`+ filtered[i].source_description + `</td>
-    <td><a href="`+ filtered[i].source_folder + `" ><i class="fas fa-arrow-down"></i></a></td>
+    <td><a href="`+ filtered[i].source_folder + `" target="_blank"><i class="fas fa-arrow-down"></i></a></td>
   `}
 
 })
