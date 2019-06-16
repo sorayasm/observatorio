@@ -88,9 +88,11 @@
   font-size: 18px;
   color: #02558a !important;
 }
-.frontside .card .card-title,
-.backside .card .card-title {
+
+.frontside .card .card-title, .backside .card .card-title {
   color: #4c9f38 !important;
+  margin-bottom: -13px;
+  margin-top: -10px;
 }
 
 .frontside .card .card-body img {
@@ -101,4 +103,8 @@
 
 .margin-about{
     margin: 2em 2em 3em 2em;
+}
+
+.backside p.card-text {
+  font-size: 12px;
 }
