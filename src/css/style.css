@@ -459,6 +459,150 @@ padding: 0  !important;
   background: url(../../assets/img/headers/D-dialogo-social.jpg) center center fixed; 
 }
 
+.header-patronales{
+  background: url(../../assets/img/headers/Dias-no-trabajados-debido-a-huelgas-y-cierres-patronales.jpg) center center fixed; 
+}
+
+.header-pib{
+  background: url(../../assets/img/headers/Gasto-de-la-seguridad-social-publica.jpg) center center fixed; 
+}
+
+.header-densidadsindical{
+  background: url(../../assets/img/headers/Indice-de-densidad-sindical.jpg) center center fixed; 
+}
+
+.header-inspeccion{
+  background: url(../../assets/img/headers/Inspeccion-del-trabajo-.jpg) center center fixed; 
+}
+
+.header-noagricola{
+  background: url(../../assets/img/headers/Porcentaje-de-asalariados-en-el-empleo-no-agricola.jpg) center center fixed; 
+}
+
+.header-pensiones{
+  background: url(../../assets/img/headers/Proporcion-poblacion-ec-activa-que-contribuye-a-un-plan-de-pensiones.jpg) center center fixed; 
+}
+
+.header-salarioreal{
+  background: url(../../assets/img/headers/Salario-real-promedio.jpg) center center fixed; 
+}
+
+.header-bajaremuneracion{
+  background: url(../../assets/img/headers/Tasa-de-asalariados-con-baja-remuneracion.jpg) center center fixed; 
+}
+
+.header-negociacioncolectiva{
+  background: url(../../assets/img/headers/Tasa-de-cobertura-de-negociacion-colectiva.jpg) center center fixed; 
+}
+
+.header-densidadempleadores{
+  background: url(../../assets/img/headers/Tasa-de-densidad-de-la-organizacion-de-empleadores.jpg) center center fixed; 
+}
+
+.header-desocupacion{
+  background: url(../../assets/img/headers/Tasa-de-desocupacion.jpg) center center fixed; 
+}
+
+.header-lesionesfatal{
+  background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-fatal.jpg) center center fixed; 
+}
+
+.header-lesionesnofatal{
+  background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-no-fatal.jpg) center center fixed; 
+}
+
+.header-ninis{
+  background: url(../../assets/img/headers/Tasa-de-jóvenes-que-no-estudian-trabajan-o-se-capacita.jpg) center center fixed; 
+}
+
+.header-subempleotiempo{
+  background: url(../../assets/img/headers/Tasa-de-subempleo-relacionada-con-el-tiempo.jpg) center center fixed; 
+}
+
+.header-tiempolesion{
+  background: url(../../assets/img/headers/Tiempo-perdido-por-lesion-ocupacional.jpg) center center fixed; 
+}
+
+.header-ocupacion{
+  background: url(../../assets/img/headers) center center fixed; 
+}
+
+.header-capacitacionreciente{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-mujeresagricola{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-tcp{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-horaocupacion{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-tiempoexcesivo{
+  background: url(../../assets/img/headers) center center fixed; 
+}
+
+.header-porhoras{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-manufacturero{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-categoria-ocupacional{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-logroeducativo{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-salariominimo{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-tiempotrabajo{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-empleoinformal{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-brechagenero{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-pobrezalaboral{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-subsistencia{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-trabajoinfantil{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-peoresformas{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-infantilpeligroso{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-duracionempleo{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
 
 /* Data sets */
 
