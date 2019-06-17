@@ -603,6 +603,10 @@ padding: 0  !important;
   background: url(../../assets/img/headers/) center center fixed; 
 }
 
+.header-igualdad{
+  background: url(../../assets/img/headers/D--Igualdad-de-oportunidades-y-trato-en-el-trabajo.jpg) center right fixed; 
+  background-size: auto;
+}
 
 /* Data sets */
 
