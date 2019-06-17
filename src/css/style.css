@@ -524,63 +524,56 @@ padding: 0  !important;
 }
 
 .header-ocupacion{
-  background: url(../../assets/img/headers) center center fixed; 
+  background: url(../../assets/img/headers/tasa-de-ocupacion.jpg) center center fixed; 
 }
 
 .header-capacitacionreciente{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/tasa-de-asalariados-con-capacitaciones-recientes-copy.jpg) center center fixed; 
 }
 
 .header-mujeresagricola{
-  background: url(../../assets/img/headers/) center center fixed; 
-}
-
-.header-tcp{
-  background: url(../../assets/img/headers/) center center fixed; 
-}
-
-.header-horaocupacion{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/porcentaje-de-mujeres-en-el-empleo-asalariado-del-sector-no-agricola.jpg) center center fixed; 
 }
 
 .header-tiempoexcesivo{
-  background: url(../../assets/img/headers) center center fixed; 
+  background: url(../../assets/img/headers/ocupados-en-tiempo-de-trabjo-excesivo2.jpg) center center fixed; 
 }
 
 .header-porhoras{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers//ocupados-por-hora-trabajada.jpg) center center fixed; 
 }
 
 .header-manufacturero{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/indice-de-remuneraciones-del-sector-industrial.jpg) center center fixed; 
 }
 
 .header-categoria-ocupacional{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/empleo-por-categoria-ocupacional.jpg) center center fixed; 
 }
 
 .header-logroeducativo{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/tasa-de-nivel-de-desempleo-por-nivel-de-logro-educativo.jpg) center center fixed; 
 }
 
 .header-salariominimo{
-  background: url(../../assets/img/headers/) center center fixed; 
-}
-
-.header-tiempotrabajo{
-  background: url(../../assets/img/headers/) center center fixed; 
-}
-
-.header-empleoinformal{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/salario-minimo-como-porcentaje-del-ingreso-mediano-.jpg) center center fixed; 
 }
 
 .header-brechagenero{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/brecha-salarial-de-genero.jpg) center center fixed; 
 }
 
 .header-pobrezalaboral{
-  background: url(../../assets/img/headers/) center center fixed; 
+  background: url(../../assets/img/headers/tasa-pobreza-laboral.jpg) center center fixed; 
+}
+
+.header-igualdad{
+  background: url(../../assets/img/headers/D--Igualdad-de-oportunidades-y-trato-en-el-trabajo.jpg) center right fixed; 
+  background-size: auto;
+}
+
+.header-empleoinformal{
+  background: url(../../assets/img/headers/tasa-de-empleo-informal.jpg) center center fixed; 
 }
 
 .header-subsistencia{
@@ -603,9 +596,16 @@ padding: 0  !important;
   background: url(../../assets/img/headers/) center center fixed; 
 }
 
-.header-igualdad{
-  background: url(../../assets/img/headers/D--Igualdad-de-oportunidades-y-trato-en-el-trabajo.jpg) center right fixed; 
-  background-size: auto;
+.header-tiempotrabajo{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-tcp{
+  background: url(../../assets/img/headers/) center center fixed; 
+}
+
+.header-horaocupacion{
+  background: url(../../assets/img/headers/) center center fixed; 
 }
 
 /* Data sets */
