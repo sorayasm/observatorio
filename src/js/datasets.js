@@ -40,3 +40,10 @@ for (i = 0; i < data.length; i++){
 
 })
 
+// Search
+jQuery("#search-table").on("keyup", function () {
+  var value = jQuery(this).val().toLowerCase();
+  jQuery("#datatable-source tr").filter(function () {
+      jQuery(this).toggle(jQuery(this).text().toLowerCase().indexOf(value) > -1)
+  });
+});
