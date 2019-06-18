@@ -496,7 +496,7 @@ padding: 0  !important;
 }
 
 .header-densidadempleadores{
-  background: url(../../assets/img/headers/Tasa-de-densidad-de-la-organizacion-de-empleadores.jpg) center center fixed; 
+  background: url(../../assets/img/headers/Tasa-de-densidad-de-la-organizacion-de-empleadores.jpg) bottom center fixed; 
 }
 
 .header-desocupacion{
@@ -548,7 +548,7 @@ padding: 0  !important;
 }
 
 .header-categoria-ocupacional{
-  background: url(../../assets/img/headers/empleo-por-categoria-ocupacional.jpg) center center fixed; 
+  background: url(../../assets/img/headers/empleo-por-categoria-ocupacional.jpg) center right fixed; 
 }
 
 .header-logroeducativo{
