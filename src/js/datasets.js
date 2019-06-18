@@ -33,8 +33,8 @@ fetch('../../assets/data/datasets.json')
 const tableSource= document.getElementById('datatable-source');
 for (i = 0; i < data.length; i++){
   tableSource.innerHTML  += `		
-    <td>`+ data[i].file_name + `</td>
-    <td>`+ data[i].file_description + `</td>
+    <td class="excerpt">`+ data[i].file_name + `</td>
+    <td class="d-none d-sm-block">`+ data[i].file_description + `</td>
     <td><a href="`+ data[i].file_link + `" target="_blank"><i class="fas fa-arrow-down"></i></a></td>
   `}
 

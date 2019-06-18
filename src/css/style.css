@@ -609,3 +609,11 @@ table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.d
   text-align: center;
   display: none;
 }
+
+@media (max-width: 576px) { 
+.excerpt {
+    overflow: hidden;
+    max-width: 25ch;
+    text-overflow: ellipsis;
+  }
+}
