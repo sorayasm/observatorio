@@ -615,4 +615,8 @@ table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.d
     max-width: 25ch;
     text-overflow: ellipsis;
   }
+
+  .hero-text-page h2 {
+    font-size: 16px;
+}
 }
