@@ -211,7 +211,7 @@
   {
     "source_name": "DEIS",
     "source_description": "Dirección de Estadística e Información de Salud (DEIS)",
-    "source_link": "www.deis.cl/",
+    "source_link": "https://www.deis.cl/",
     "file_name": "Accidentes laborales fatales 2007-2016",
     "file_type": "xlsx",
     "file_year": "2007-2016",
