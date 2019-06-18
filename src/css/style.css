@@ -444,15 +444,15 @@ padding: 0  !important;
 }
 
 .header-datasets{
-  background: url(../../assets/img/headers/data-sets.jpg) no-repeat center center fixed; 
+  background: url(../../assets/img/headers/data-sets.jpg) repeat top center fixed; 
 }
 
 .header-sources{
-  background: url(../../assets/img/headers/fuentes-de-datos.jpg) no-repeat center center fixed; 
+  background: url(../../assets/img/headers/fuentes-de-datos.jpg) repeat top center fixed; 
 }
 
 .header-concepto{
-  background: url(../../assets/img/headers/Que-es-Trabajo-Decente.jpg) center center fixed; 
+  background: url(../../assets/img/headers/Que-es-Trabajo-Decente.jpg) top center fixed; 
 }
 
 .header-dialogosocial{
@@ -605,6 +605,7 @@ padding: 0  !important;
 
 /* Data sets */
 
-td.dataTables_empty {
+table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.dataTables_empty {
+  text-align: center;
   display: none;
 }
