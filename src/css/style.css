@@ -508,7 +508,7 @@ padding: 0  !important;
 }
 
 .header-lesionesnofatal{
-  background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-no-fatal.jpg) center center fixed; 
+  background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-no-fatal.jpg) repeat center center fixed; 
 }
 
 .header-ninis{
@@ -540,7 +540,7 @@ padding: 0  !important;
 }
 
 .header-porhoras{
-  background: url(../../assets/img/headers//ocupados-por-hora-trabajada.jpg) center center fixed; 
+  background: url(../../assets/img/headers/ocupados-por-hora-trabajada.jpg) center center fixed; 
 }
 
 .header-manufacturero{
@@ -596,17 +596,12 @@ padding: 0  !important;
   background: url(../../assets/img/headers/Tenencia-de-trabajo.jpg) center center fixed; 
 }
 
-.header-tiempotrabajo{
-  
-}
+.header-tiempotrabajo
+.header-tcp
+.header-horaocupacion
+.header-participacion
+.header-desempleojuvenil
 
-.header-tcp{
- 
-}
-
-.header-horaocupacion{
-
-}
 
 /* Data sets */
 
