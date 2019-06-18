@@ -596,10 +596,20 @@ padding: 0  !important;
   background: url(../../assets/img/headers/Tenencia-de-trabajo.jpg) center center fixed; 
 }
 
-.header-promedioporhoras
-.header-tcp
-.header-participacion
-.header-desempleojuvenil
+.header-promedioporhoras{
+  background: url(../../assets/img/headers/promedio-de-remuneracion-por-hora-en-ocupaciones-seleccionadas.jpg) center center fixed; 
+}
+.header-tcp{
+  background: url(../../assets/img/headers/Porcentaje-de-t.c.p.-y-f.n.r.-en-el-empleo_cuidado-anciano.jpg) center center fixed; 
+}
+
+.header-participacion{
+  background: url(../../assets/img/headers/tasa-de-participacion.jpg) center center fixed; 
+}
+
+.header-desempleojuvenil{
+  background: url(../../assets/img/headers/tasa-de-desempleo-juvenil.jpg) center center fixed; 
+}
 
 
 /* Data sets */

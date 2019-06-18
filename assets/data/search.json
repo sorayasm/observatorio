@@ -117,7 +117,7 @@
 	{
 	  "title": "Promedio de remuneración por hora en ocupaciones seleccionadas",
 	  "excerpt": "Indicador del Trabajo Decente",
-	  "url": "src/indicadores/salario-real-promedio.html"
+	  "url": "src/indicadores/promedio-de-remuneracion-por-hora-en-ocupaciones-seleccionadas.html"
 	},
 	{
 	  "title": "Salario real promedio",
@@ -130,7 +130,7 @@
 	  "url": "src/indicadores/salario-minimo-como-porcentaje-del-ingreso-mediano.html"
 	},
 	{
-	  "title": "Índice de remuneraciones del sector industrial",
+	  "title": "Índice de remuneraciones del sector manufacturero",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/indice-de-remuneraciones-del-sector-industrial.html"
 	},
