@@ -124,6 +124,10 @@
 								<h2>Porcentaje de asalariados en el empleo no-agrícola</h2>
 							</div>
 						</div>
+						<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/1.10 Empleo No agricola.gif" />
+						<br>
 						<div class="row margin d-flex justify-content-center">
 							<div class="col-12 col-md-10 margin-acuerdos w-100">
 								<p class="font-italic">Dimensión: Oportunidades de empleo</p>
@@ -168,9 +172,41 @@
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos preferida para este indicador es una encuesta de fuerza de
-									trabajo.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+La clasificación de una persona ocupada como asalariado o dedicada a una determinada actividad económica (en este caso, sector no-agrícola) por sí misma no es un indicio de trabajo decente, y se alienta a los usuarios de los datos a analizar el indicador conjuntamente con datos complementarios, tales como ingresos del trabajo y horas excesivas de asalariados.
+<br> Se recomienda el análisis del indicador desglosado por sexo a fin de medir el grado en que las mujeres tienen igual acceso al empleo remunerado en los sectores de la industria y los servicios. También proporciona información sobre la apertura de los mercados laborales a las mujeres en estos sectores. También en este caso, se recomienda el análisis conjunto con indicadores complementarios (por ejemplo, ingresos del trabajo, horas excesivas) y el tipo de asalariados.
+<br> Es previsible que los cambios en el indicador se produzcan lentamente a lo largo del tiempo dado que el estado en las categorías de ocupación y ramas de actividad económica reflejan la estructura del empleo. El desarrollo económico a menudo va acompañado de una proporción cada vez mayor de asalariados y una disminución de los trabajadores por cuenta propia. Los asalariados se pueden encontrar en establecimientos de todos los tamaños y, por lo tanto, es útil analizar el indicador por tamaño de establecimiento.
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+								
+<p><b>Fuente:</b> Encuesta Nacional de Empleo (ENE), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> Ocupados asalariados en empleos no agrícolas  / Total Ocupados * 100.
+				
+<br><b>Variables:</b>
+	
+
+<br>2.	Ocupados (cae_especifico>=1 & cae_especifico<=7).
+<br>2.	Asalariados (categoria_ ocupacion=1 o categoria_ ocupacion=3 o categoria_ ocupacion=4).
+<br>3.	Empleos no agrícolas (b13_rev4cl_caenes=!1).
+<br><b>Desagregaciones:</b>
+<br>1.	Tramo de edad (tramo_edad).
+											
+<br>2.	Sexo (sexo).
+									
+<br>3.	Área geográfica (region).
+<br>4.	Actividad económica (r_p_rev4cl_caenes).
+<br>5.	Tamaño empresa (b15_1).
+<br>6.	Jornada (c1).				
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1YiUdUEc_nSn4KmcSAQQjh8RuOW2wFsmN">Datasets ENE</a>
+						</p>
 							</div>
 						</div>
 					</div>
