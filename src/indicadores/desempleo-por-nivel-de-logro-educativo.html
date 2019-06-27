@@ -135,6 +135,10 @@
 								<p>DNLE se define como el número de personas desempleadas con cada nivel específico de
 									logro educativo dado como un porcentaje del número total de personas que están
 									desocupadas.</p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/1.7 Desempleo Nivel Educativo.gif" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560022611996"
@@ -163,12 +167,40 @@
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos nacional oficial preferida para este indicador es una encuesta de
-									fuerza de trabajo basada en el hogar. El censo de población y/u otras encuestas de
-									hogares con un módulo de empleo apropiado también pueden usarse para obtener los
-									datos requeridos. Los registros de desempleo pueden servir como instrumentos para
-									recopilar datos sobre los niveles de desempleo.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+El progreso se logra cuando el DNLE para diferentes grupos de logros educativos alcanza niveles aceptablemente bajos y cuando las brechas entre diferentes grupos de logros educativos también son aceptablemente bajas. El logro de niveles aceptables debe considerarse en el contexto de las circunstancias nacionales. Sin embargo, como en el caso de la tasa de desempleo (TD), el DNLE no reflejará adecuadamente la subutilización laboral. También debe analizarse junto con medidas complementarias de la holgura laboral y la subutilización de la mano de obra, incluido el subempleo relacionado con el tiempo y los trabajadores desalentados, cuyas filas a menudo aumentan durante los períodos de debilidad económica o recesión.
+<br>Los niveles y tendencias de DNLE en el tiempo deben analizarse junto con el volumen de desempleo en cada grupo de logros educativos para comprender si el desempleo afecta a un gran número de personas en grupos seleccionados.
+<br>En muchas economías, y particularmente entre las economías desarrolladas, las tasas de desempleo a menudo son más altas entre las personas con niveles más bajos de educación. Esto refleja el hecho de que la demanda de trabajadores con mayores niveles de logro educativo (con más habilidades profesionales y técnicas) es mayor en muchas economías que en el caso de los trabajadores con menores niveles de escolaridad (menos trabajadores calificados). Sin embargo, no siempre hay una relación clara entre los niveles de logro educativo y el desempleo. La presión al alza sobre las tasas de desempleo entre los jóvenes mejor educados es el resultado de “hacer cola” para empleos de alta calidad donde la “competencia laboral” puede ser fuerte. Sin embargo, en países donde los planes de seguro de desempleo o las redes de seguridad social son débiles o inexistentes, las personas con menores niveles de educación sin fuentes alternativas de ingresos necesitarán encontrar o crear empleo para sí mismos, lo que ocasionará una presión a la baja en la tasa de desempleo de este grupo en particular. Esto es especialmente cierto en las zonas rurales donde la infraestructura educativa es débil y la agricultura de subsistencia es frecuente. Dichos factores deben tenerse en cuenta al interpretar los resultados.
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+								
+<p><b>Fuente:</b> Encuesta Nacional de Empleo (ENE), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> Desocupados / Fuerza de Trabajo * 100.
+						
+<br><b>Variables:</b>
+	
+<br>1.	Desocupados (cae_especifico>=8 & cae_especifico<=9).
+<br>2.	Fuerza de Trabajo (cae_especifico>=1 & cae_especifico<=9).
+
+<br><b>Desagregaciones:</b>
+<br>1.	Tramo de edad (tramo_edad).
+									
+<br>2.	Nivel de logro educativo (nivel).
+									
+<br>3.	Sexo (sexo).
+									
+<br>4.	Área geográfica (region).
+<br>5.	Estado civil (est_conyugal).				
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1YiUdUEc_nSn4KmcSAQQjh8RuOW2wFsmN">Datasets ENE</a>
+						</p>
 							</div>
 						</div>
 					</div>
