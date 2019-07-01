@@ -149,6 +149,13 @@
 										plazo de aviso y/o a voluntad. Las condiciones específicas se deben determinar
 										dependiendo de la normativa y costumbres de cada país.</li>
 								</ul>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/6.2 Tasa Empleo Precario.gif" />
+								<br>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/6.2 Tasa Empleo Precario2.gif" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560023606345"
@@ -170,28 +177,58 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560023606345"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560023606345"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1900px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>Se recomienda usar encuestas de hogares sobre fuerza de trabajo, que incluya
-									información sobre la duración o estabilidad del contrato o fuente de trabajo. En el
-									caso de Chile, la ENE es la que mejor se ajusta a estos requerimientos. Sin embargo,
-									a diferencia de la Encuesta de CASEN, no tiene información sobre la estabilidad del
-									empleo independiente.</p>
-								<p>En la ENE se considera que el empleo precario abarca a los asalariados que tienen la
-									siguiente relación contractual con su empleador: - Trabajadores sin contrato de
-									trabajo, independiente si la duración del acuerdo de trabajo es por plazo definido o
-									indefinido. Los trabajadores sin contrato pueden ser despedidos sin previo aviso,
-									criterio suficiente para clasificarlos en esta categoría. - Trabajadores con
-									contrato de trabajo a plazo definido, excluyendo aquellos contratos renovables una
-									vez al año. En la CASEN, empleo precario se calcula de la misma forma para los
-									asalariados. Respecto a los trabajadores independientes, se considera que el empleo
-									precario abarca a todas las personas que declaran tener un trabajo de carácter
-									temporal (variable o12 en CASEN 2015).</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+El progreso en este indicador se observa cuando se logran niveles aceptablemente bajos en relación a las circunstancias nacionales y/o cuando se observa una tendencia a la baja. Diferentes experiencias sugieren que este indicador es sensible a cambios en el ciclo económico, teniendo una naturaleza contra-cíclica: una desaceleración o recesión puede resultar primeramente en el despido de trabajadores con contratos de corto plazo, usualmente más jóvenes y menos experimentados. Por el contrario, cuando la economía entra en fase de expansión, las empresas pueden querer disminuir el riesgo y mantener los costos bajos, al menos inicialmente, contratando trabajadores con contratos de corto plazo.
+<br>
+En el agregado, las decisiones de las empresas respecto a sus empleados durante el ciclo económico van a depender de la estructura económica, la demanda de productos o servicios y los precios en el mercado de productos, así como de la oferta laboral y el nivel de salarios en el mercado laboral. Por lo anterior, se recomienda analizar el indicador junto a indicadores de crecimiento del producto por sector, tasa de participación, tasa de desempleo y promedio de ingresos.
+<br>
+El trabajo estacional se da en algunas industrias relevantes, como la agricultura o el turismo, y la contratación puede estar sujeta a leyes especiales que deberían ser tomadas en cuenta a la hora de analizar el indicador. Podría darse cierto traslape entre este indicador y el indicador de empleo informal, reflejando el hecho que los empleos precarios generalmente carecen de derechos sociales y legales mínimos, así como de beneficios. Para identificar los empleos independientes precarios, se podría analizar la estabilidad de estos emprendimientos. Por ejemplo, analizando el tiempo promedio que lleva en operación el emprendimiento, distinguiendo entre sector formal e informal.
+<br>
+Es necesario tener en cuenta que algunos trabajadores (por ejemplo, jóvenes que estudian y trabajan) podrían preferir el empleo esporádico, estacional o de corto plazo. Por lo anterior, es necesario establecer hasta qué punto esta situación es voluntaria o involuntaria.
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+								
+<p><b>Fuente:</b> Encuesta Nacional de Empleo (ENE), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> (TrSC + TrCPF - TrCPFrenov) / total ocupados * 100.
+				
+<br><b>Variables:</b>
+	
+<br>1.	TrSC= Trabajadores sin contrato. 
+<br>2.	TrCPF= Trabajadores con contrato plazo fijo.
+<br>3.	TrCPFrenov= Trabajadores con contrato plazo fijo renovable anualmente. 
+<br><b>Desagregaciones:</b>						
+<br>1.	Sexo (sexo).
+
+<br>2.	Tramo de edad (edad).
+
+<br>3.	Área geográfica (region).
+<br>4.	Nivel educacional (nivel).
+<br>5.	Actividad económica (r_p_rev4cl_caenes).
+<br>6.	Categoría de ocupación (categoria_ocupacion).
+<br>7.	Grupo ocupacional (b1).
+<br><b>Observaciones:</b>
+<p>Se recomienda usar encuestas de hogares sobre fuerza de trabajo, que incluya
+ información sobre la duración o estabilidad del contrato o fuente de trabajo. En el
+	caso de Chile, la ENE es la que mejor se ajusta a estos requerimientos. Sin embargo, a diferencia de la Encuesta de CASEN, no tiene información sobre la estabilidad del
+ empleo independiente.</p>
+		<p>En la ENE se considera que el empleo precario abarca a los asalariados que tienen la
+ siguiente relación contractual con su empleador: - Trabajadores sin contrato de trabajo, independiente si la duración del acuerdo de trabajo es por plazo definido o indefinido. Los trabajadores sin contrato pueden ser despedidos sin previo aviso, criterio suficiente para clasificarlos en esta categoría. - Trabajadores con contrato de trabajo a plazo definido, excluyendo aquellos contratos renovables una vez al año. En la CASEN, empleo precario se calcula de la misma forma para los asalariados. Respecto a los trabajadores independientes, se considera que el empleo precario abarca a todas las personas que declaran tener un trabajo de carácter temporal (variable o12 en CASEN 2015).</p>
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1YiUdUEc_nSn4KmcSAQQjh8RuOW2wFsmN">Datasets ENE</a>
+						</p>
 							</div>
 						</div>
 					</div>
