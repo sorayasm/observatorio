@@ -135,6 +135,10 @@
 								<h5>Definición</h5>
 								<p>Se define como el porcentaje de mujeres entre los asalariados de todos los sectores
 									de la economía, con excepción del sector agrícola.</p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/7.5 Porcentaje Mujeres no agricola.gif" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560023036005"
@@ -157,15 +161,37 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560023036005"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560023036005"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "900px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos preferida para este indicador es una encuesta de fuerza de
-									trabajo.</p>
+								Otro indicador que puede utilizarse para un análisis similar es la proporción de mujeres en el empleo según la categoría de la CIIU (indicador 11.10.1). Ese indicador puede analizarse junto con la participación EMPL-10 del empleo asalariado en el empleo no agrícola (indicador 1.10.1).
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Nacional de Empleo (ENE), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> Ocupadas asalariadas mujeres en empleos no agrícolas  / Total Ocupados * 100.
+				
+<br><b>Variables:</b>
+	
+
+<br>1.	Ocupados (cae_especifico>=1 & cae_especifico<=7).
+<br>2.	Asalariados (categoria_ ocupacion=1 o categoria_ ocupacion=3 o categoria_ ocupacion=4).
+<br>3.	Empleos no agrícolas (b13_rev4cl_caenes=!1).
+<br>4.	Mujeres (sexo=2).
+<br><b>Desagregaciones:</b>
+<br>1.	Área geográfica (region).
+<br>2.	Actividad económica (r_p_rev4cl_caenes).
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1YiUdUEc_nSn4KmcSAQQjh8RuOW2wFsmN">Datasets ENE</a>
+</p>
 							</div>
 						</div>
 					</div>
