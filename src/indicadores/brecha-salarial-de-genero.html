@@ -132,13 +132,16 @@
 									los hombres y el salario promedio por hora para las mujeres, tomando como referencia
 									la ocupación principal (o.p.).</p>
 								<h5>Definición</h5>
-								<p>La brecha salarial de género se define como , en donde:</p>
-								<ul class="list-unstyled">
-									<li>es la razón entre los ingresos y las horas trabajadas (en la o.p.) de los
-										asalariados.</li>
-									<li>es la razón entre los ingresos y las horas trabajadas (en la o.p.) de las
-										asalariadas.</li>
-								</ul>
+								<p>La brecha salarial de género se define como la diferencia porcentual entre las razones de los ingresos de la ocupación principal y las horas trabajadas de hombres y mujeres.</p>
+								<p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/2.6 Brecha salarial.gif" />
+<br>								</p>
+								<p>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/2.6 Brecha salarialB.gif" />
+<br></p>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560024465883"
@@ -161,15 +164,56 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560024465883"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px"; var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560024465883"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1800px"; var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos preferida para este indicador es una encuesta de fuerza de
-									trabajo.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+La brecha salarial de género mide la medida en que los salarios de los hombres difieren de los de las mujeres.
+Cuando la brecha salarial de género es igual a 0, denota igualdad de ingresos. Los valores positivos reflejan la medida en que los ingresos de las mujeres son inferiores a los recibidos por los hombres, donde un valor más cercano a 100 denota más desigualdad que un valor más cercano a 0. Los valores negativos reflejan la medida en que las ganancias de las mujeres son más altas que las de los hombres (aunque rara vez se encuentran en la realidad).</p>
+<p>
+La brecha salarial de género presentada arriba está en una forma no ajustada. Específicamente, esto significa que parte de la diferencia entre las ganancias promedio por hora de hombres y mujeres puede explicarse por características observables, como las diferencias en educación o experiencia. En este sentido, si bien la brecha salarial de género es una medida útil para mostrar, en promedio, qué tan atrás están las mujeres, es menos útil para comprender las razones subyacentes por las cuales existe la brecha.</p>
+<p>
+La brecha salarial de género se calcula solo para los asalariados remunerados, ya que los datos de ingresos suelen estar disponibles para los asalariados. Por lo tanto, la brecha salarial de género no cubre un gran número de trabajadores por cuenta propia o empleadores, especialmente en el sector informal donde las diferencias de ingresos entre hombres y mujeres pueden ser mayores. La brecha salarial de género no captura las diferencias de ingresos entre los sexos que resultan del acceso desigual al empleo remunerado. Por ejemplo, cuando los hombres están sobrerrepresentados entre los asalariados asalariados (con ingresos relativamente altos) y las mujeres están sobrerrepresentadas entre los trabajadores por cuenta propia en el sector informal (con ingresos relativamente bajos), es probable que la brecha general en los ingresos sea mayor de lo que puede ser capturado por la brecha salarial de género.
+
+
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Suplementaria de Ingresos (ESI), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> 100*(E_H - E_M) / E_H.
+				
+<br><b>Variables:</b>
+	E_H es la razón entre los ingresos y las horas trabajadas (en la o.p.) de los asalariados.
+
+Ingreso ocupación principal: ing_t_d
+Horas totales trabajadas: d4_dias * d4_horas
+Asalariados: cise= 3 | cise= 4
+
+<br>1.	Ingreso ocupación principal ([Ing T D]).
+<br>2. Asalariados ([Cise] = 3 OR [Cise] = 4).
+<br>3. Horas totales trabajadas ([Horas]*[Días]). Dependiendo del año se usa [Horas] o [D4 Horas] y [Días] o [D4 Días] 
+<br>4. Sexo (Sexo=1 Hombre o Sexo=2 Mujer). 
+
+<br><b>Desagregaciones:</b>
+<br>1.	Área geográfica (region).
+<br>2.	Tramo etario (Grupo Edad).
+<br>3.	Actividad económica (B14 Rev4Cl Caenes).
+<br>4.	Nivel Educacional (Cine).
+<br>5.	Grupo Ocupacional (B1).
+
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1CqHSJtc_DesTiVteqHK4spjCp-nQ-IbB">Datasets ESI</a>
+</p>
 							</div>
 						</div>
 					</div>
