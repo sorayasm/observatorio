@@ -136,6 +136,10 @@
 								<h5>Definición</h5>
 								<p>Este indicador se refiere al salario mínimo expresado como porcentaje de la mediana
 									del ingreso de la ocupación principal.</p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/2.5 Salario min respecto mediana" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560020369340"
@@ -158,18 +162,48 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560020369340"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560020369340"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1400px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>Los datos subyacentes para el numerador se pueden obtener de fuentes oficiales, tales
-									como órdenes de salario o leyes que fijan el salario mínimo (SM). Las fuentes
-									preferidas de datos para el denominador son las encuestas de establecimiento que
-									permiten estimar las salarios medias mensuales o las encuestas de la fuerza de
-									trabajo que permiten de manera similar la estimación de esta variable.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+Expresar el salario mínimo (típicamente establecido entre un tercio y dos tercios del salario mediano) como un porcentaje de la mediana del ingreso del trabajo proporciona información sobre la pertinencia y la eficacia potencial del salario mínimo para servir como un salario adecuado de los empleados mal pagados en un país dado que usa salarios medias como un valor promedio de referencia. Si se establece un salario mínimo a un nivel muy bajo, no se alcanzará este objetivo. Por otro lado, si el salario mínimo es demasiado alto en relación con el salario mediano, esto puede tener efectos negativos sobre el cumplimiento y / o generación de empleo.</p>
+<p>
+El salario mínimo también sirve como salario de reserva o señal para la llamada reserva de trabajo de los potenciales solicitantes de empleo. A medida que las condiciones del mercado de trabajo mejoran después de una recesión económica, las personas fuera de la fuerza de trabajo que desean un empleo pueden tener en cuenta factores como el salario mínimo cuando deciden probar el mercado de trabajo. Si el salario mínimo como porcentaje del salario medio es relativamente bajo, esas personas pueden permanecer fuera de la fuerza de trabajo a medida que sopesan los costos de transporte, cuidado de niños, etc. contra los ingresos potenciales definidos por el salario mínimo.</p>
+<p>
+Se recomienda analizar el salario mínimo nominal no sólo en relación con la mediana del salario nominal, sino que las variaciones período a período del salario mínimo real sean analizadas con respecto a la tasa de inflación (medida por el período correspondiente cambio período a período del IPC), para ver si los ajustes al salario mínimo están siguiendo el ritmo de la inflación, permitiendo a los empleados que dependen del salario mínimo disfrutar del poder adquisitivo adecuado de sus salarios en el tiempo.
+
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Suplementaria de Ingresos (ESI), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> Sueldo minimo / Mediana Ingreso Ocupación Principal * 100.
+				
+<br><b>Variables:</b>
+	
+
+<br>1.	Sueldo mínimo (Sueldo en $ según cada año. Fuente: https://www.calcular.cl/sueldo-minimo-chile.html). 
+<br>2.	Ingreso Ocupación Principal ([Ing T D]).
+
+<br><b>Desagregaciones:</b>
+<br>1.	Área geográfica (region).
+<br>2.	Sexo (Sexo).
+<br>3.	Tramo etario (Grupo Edad).
+<br>4.	Actividad económica (B14 Rev4Cl Caenes).
+<br>5.	Nivel Educacional (Cine).
+
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1CqHSJtc_DesTiVteqHK4spjCp-nQ-IbB">Datasets ESI</a>
+</p>
 							</div>
 						</div>
 					</div>
