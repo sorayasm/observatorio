@@ -135,6 +135,10 @@
 								<h5>Definición</h5>
 								<p>El indicador se define como promedio de ingreso del trabajo real mensuales de los
 									asalariados.</p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/2.4 Salario Real Promedio.gif" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560020470588"
@@ -157,15 +161,54 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560020470588"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px"; var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560020470588"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1400px"; var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>Las fuentes de datos preferidas son las encuestas de establecimientos o de fuerza de
-									trabajo.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+Los datos de ingresos de trabajo (sea o no en la ocupación principal) muestran fluctuaciones que reflejan la influencia de los cambios tanto en el salario base (sueldos y salarios) como en cualquier pago suplementario adicional y pagos no salariales. Las ganancias semanales, diarias y mensuales también dependen de las variaciones en las horas de trabajo. Las fluctuaciones de las ganancias promedio obtenidas de las nóminas globales o las respuestas a las encuestas de hogares también están influenciadas por cambios composicionales entre los asalariados asalariados, es decir, la importancia relativa de asalariados masculinos y femeninos, asalariados jóvenes y mayores, asalariados no calificados y capacitados, asalariados a tiempo completo y a tiempo parcial, etc.</p>
+<p>
+A veces, se pueden observar desarrollos contraintuitivos a lo largo del ciclo económico. Por ejemplo, durante una recesión, los asalariados poco calificados con contratos temporales de trabajo podrían ser los primeros en ser despedidos por las empresas. Dado que la fuerza de trabajo restante se compone de trabajadores relativamente mejor pagados, esto puede sesgar las tendencias en los salarios promedio al alza. El efecto inverso a veces se puede observar durante la recuperación, cuando los trabajadores mal pagados son a menudo los primeros en volver a ser contratados. Sin embargo, este efecto a menudo está dominado por cambios en el tiempo de trabajo que generalmente disminuyen durante una recesión (y por lo tanto los salarios mensuales caen) y aumentan durante una recuperación (cuando los salarios mensuales aumentan como resultado). Por lo tanto, algunos países también calculan los salarios mensuales promedio reales de los trabajadores a tiempo completo o equivalentes a tiempo completo.</p>
+<p>
+Puede ser valioso analizar el indicador conjuntamente con las estimaciones de la distribución de los ingresos para obtener una comprensión de cómo los ingresos mensuales promedio se relacionan con la distribución de los ingresos y si puede haber una gran proporción de empleados agrupados en el nivel alto y/o bajo de la distribución de los ingresos del trabajo que se oculta en la medida de los ingresos mensuales medios.</p>
+<p>
+También puede ser útil analizar los cambios en el indicador frente a los cambios en el deflactor del IPC para evaluar en qué medida el crecimiento de los ingresos reales se mantiene al ritmo del crecimiento de la inflación.
+Por otra parte, también puede ser útil analizar el crecimiento real de la productividad del trabajo frente al promedio del ingreso (real) del trabajo, pero en este caso la comparación debería efectuarse de forma trimestral o anual, de acuerdo con la publicación de las medidas nacionales de producción. Con frecuencia no existe una relación 1:1 en términos de aumento porcentual entre los dos indicadores, ya que el crecimiento real de la productividad laboral supera con creces el crecimiento de los ingresos reales, lo que indica un desequilibrio en el crecimiento de los salarios. En épocas de trabajo excedentario, cuando las tasas de desempleo y/o otras medidas de sub-utilización de trabajo (como el subempleo relacionado con el tiempo y el número de trabajadores desalentados) son altas o están aumentando, incluso si la productividad del trabajo se expande, los ingresos reales no pueden aumentar o, si lo hacen, a una tasa de crecimiento mucho menor con respecto a la productividad laboral.
+
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Suplementaria de Ingresos (ESI), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> Promedio Ingresos totales ocupación * Índice_IPC_BASE / Indice_IPC_MES(t).
+				
+<br><b>Variables:</b>
+	
+
+<br>1.	Ingreso ocupación principal ([Ing T D]). 
+<br>2.	Asalariados ([Cise] = 3 OR [Cise] = 4).
+<br>3.	Índice_IPC_BASE: 100,64 correspondiente a Diciembre de 2018
+<br>4.	Índice_IPC_MES(t): Índice según mes del salario promedio calculado
+
+<br><b>Desagregaciones:</b>
+<br>1.	Área geográfica (region).
+<br>2.	Sexo (Sexo).
+<br>3.	Tramo etario (Grupo Edad).
+<br>4.	Actividad económica (B14 Rev4Cl Caenes).
+<br>5.	Nivel Educacional (Cine).
+<br>6.	Jornada (C1).
+
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1CqHSJtc_DesTiVteqHK4spjCp-nQ-IbB">Datasets ESI</a>
+</p>
 							</div>
 						</div>
 					</div>
