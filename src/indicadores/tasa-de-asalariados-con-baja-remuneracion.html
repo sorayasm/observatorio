@@ -134,6 +134,10 @@
 								<p>Se define la tasa de asalariados con bajos salarios (TABI) como el porcentaje de
 									asalariados cuyo ingreso (real) del trabajo por hora equivale a menos de dos tercios
 									de la mediana del ingreso del trabajo real por hora de los asalariados.</p>
+								<h5>Forma de cálculo</h5>
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/ 	2.2 Tasa Bajos Ingresos.gif" />
+								<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560021611419"
@@ -156,15 +160,48 @@
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
 										<script
-											type="text/javascript">                    var divElement = document.getElementById("viz1560021611419"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1300px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+											type="text/javascript">                    var divElement = document.getElementById("viz1560021611419"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height = "1900px";var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									</div>
 									<div class="phone">
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos preferida para este indicador es una encuesta de fuerza de
-									trabajo.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>
+El TABS se basa en una medida relativa de los ingresos y depende de la distribución de las ganancias por hora en un país. Es probable que disminuya cuando los empleados mal pagados en el extremo inferior de la distribución de ganancias aumenten sus ganancias por hora en relación con otros empleados. Si todos los empleados aumentan (o disminuyen) sus ganancias por hora en una proporción relativamente similar, la tasa seguirá siendo la misma. Por lo tanto, es útil analizar el indicador junto con el indicador 02.04.01, ya que permite mapear las tendencias en los salarios reales promedio. El uso del salario mediano como punto de referencia para establecer el umbral de pago bajo ayuda a limitar la influencia de los valores atípicos en los datos salariales.</p>
+<p>
+Además del análisis de los datos de series de tiempo, es altamente informativo comparar la incidencia de salarios bajos entre diferentes grupos de asalariados. Por lo general, las mujeres asalariadas tienen una mayor incidencia de bajos salarios que los hombres, y los bajos salarios tienden a concentrarse en ciertas ocupaciones o actividades económicas, por ejemplo, entre las trabajadoras domésticas.</p>
+<p>
+Como una medida de los empleados con salarios relativamente bajos, este indicador complementa la medida de pobreza absoluta de los hogares proporcionada por el indicador 2.1.1. El análisis conjunto de estos dos indicadores puede ser valioso en países con un gran porcentaje de empleados para obtener una mejor comprensión de la proporción de empleados con ingresos adecuados y su potencial para las tasas de pobreza laboral. Típicamente, una disminución en la TABS indicará una mejora en las condiciones de vida de los trabajadores y sus hogares en el extremo inferior de la distribución de salarios, y por lo tanto puede contribuir a una disminución en el TPL, reflejando mejoras en el ingreso familiar entre los hogares con al menos un empleado. Sin embargo, puede haber casos donde la creación de nuevos salarios bajos.
+
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Suplementaria de Ingresos (ESI), INE.
+<br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+								
+<br><b>Período de referencia:</b> 2010 en adelante.
+								
+<br><b>Forma de Cálculo:</b> N° de asalariados con ingreso hora < 2/3 mediana ingresos hora asalariados  / N° asalariados * 100.
+				
+<br><b>Variables:</b>
+	
+
+<br>1.	Ingreso hora ([Igreso Hora] > 0 AND [Igreso Hora] <= 143913).
+<br>2.	Asalariados ([Cise] = 3 OR [Cise] = 4).
+<br><b>Desagregaciones:</b>
+<br>1.	Área geográfica (region).
+<br>2.	Sexo (Sexo).
+<br>3.	Tramo etario (Grupo Edad).
+<br>4.	Jornada (C1).
+<br>5.	Grupo de Ocupación (B1).
+<br>6.	Grupo de Ocupación (B1).
+<br>7.	Actividad económica (B14 Rev4Cl Caenes).
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1CqHSJtc_DesTiVteqHK4spjCp-nQ-IbB">Datasets ESI</a>
+</p>
 							</div>
 						</div>
 					</div>
