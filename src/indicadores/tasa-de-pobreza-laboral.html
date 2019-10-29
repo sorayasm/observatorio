@@ -223,7 +223,7 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>8.	Situación de empleo: (ch1, o16, o20)
 <br>9.	Tipo de jornada: (o18, o19)
 <br>10.	Composición del hogar: "Estructura Hogar",  "Tipología Generacional", " Composición"
-
+<br>
 <br><i> Estructura Hogar</i>
 <br>a) Hogar unipersonal: Hogar compuesto de una persona (numper=1)
 <br>b) Hogar  sin  núcleo: Hogar que no tiene un núcleo conyugal o una relación madre/padre e hijo/hija, aunque pueden haber otros lazos familiares o no familiares (numper >=2 & sum(nucleo_SINO)=0
@@ -231,7 +231,7 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>d) Familia  nuclear  monoparental: Núcleo con presencia sólo de padre o madre,  en que existe una relación entre éste(a) e hijo/hija (numper>=2 & sum(parejas)=0 & sum(hijos)>=1 & sum(parientes)=0 & sum(otros)=0
 <br>e) Familia  extensa  biparental: Núcleo conyugal  con  presencia  o  no  de  hijos, que  además  incluye  otro(s) pariente(s) (numper>=2 & sum(parejas)>=1 & sum(parientes)>=1 & sum(otros)=0)
 <br>f) Familia  compuesta: Núcleo (conyugal,o con presencia de padre o madre e hijo/hija), que incluye otro(s) pariente(s) y además incluye no pariente(s) (numper>=2 & sum(nucleo_SINO)>=1 & sum(parientes)>=1 & sum(otros)>=1)
-
+<br>
 <br><i> Tipología Generacional del Hogar(presencia de una, dos o más generaciones) </i>
 <br>a) Multigeneracionales: hogares compuestos por miembros de todas las generaciones diferenciadas: 0 a 14 años; 15 a 64; 65 años o más	(sum(edad_0_14)>=1 & sum(edad_15_64)>=1 & sum(edad_65)>=1)
 <br>b) Sin generaciones intermedias: hogares bi-generacionales sin miembros entre 15 y 64 años (sum(edad_0_14)>=1 & sum(edad_15_64)=0 & sum(edad_65)>=1)
@@ -240,7 +240,7 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>e) Generación entre 15 y 64: hogares en que conviven miembros sólo entre 15 y 64 años (sum(edad_0_14)>=0 & sum(edad_15_64)>=1 & sum(edad_65)=0)
 <br>f) Generación mayor de 64: hogares en que conviven miembros sólo mayores de 64 años (sum(edad_0_14)=0 & sum(edad_15_64)=0 & sum(edad_65)>=1)
 
-<br><i>Tipología de Ciclo de Vida del Hogar
+<br><i>Tipología de Ciclo de Vida del Hogar</i>
 <br>a) Parejas jóvenes sin hijos: en donde alguna persona de la pareja tiene hasta 40 años (sum(parejas)>=1 & sum(menor40)>=1 & sum(hijos)=0)
 <br>b) Etapa inicial: familias con hijos de 0 a 5 años (sum(hijos)>=1 & sum(hijos_0_5)>=1 & sum(hijos_6_12)=0 & sum(hijos_13_18)=0 & sum(hijos_19)=0)
 <br>c) Etapa de Expansión: familias con hijos en los que el mayor tiene entre 6 y 12 años (sum(hijos)>=1 & sum(hijos_6_12)>=1 & sum(hijos_13_18)=0 & sum(hijos_19)=0)
@@ -249,7 +249,7 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>e) Etapa de Salida: familias con hijos con 19 o más años (sum(hijos)>=1 & sum(hijos_13_18)=0 & sum(hijos_19)>=1)
 <br>f) Parejas mayores sin hijos: se define como parejas mayores aquellas en que ambos son mayores de 40 años (sum(parejas)>=1 & sum(menor40)=0 & sum(hijos)=0)
 
-<br><i>donde:</i> 
+<br>
 <br><i>donde:</i> 
 <br>nucleo_SINO (pco1=2 | pco1=3 | pco1=4 | pco1=5 | pc01=6 | pc01=7)
 <br>hijos (pco1=5)
@@ -264,10 +264,12 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>hijos_6_12 ((pco1=4 & edad>=6 & edad<=12 ) | (pco1=5 & edad>=6 & edad<=12 ) | (pco1=6 & edad>=6 & edad<=12 ))
 <br>hijos_13_18 ((pco1=4 & edad>=13 & edad<=18 ) | (pco1=5 & edad>=13 & edad<=18 ) | (pco1=6 & edad>=13 & edad<=18 ))
 <br>hijos_19 ((pco1=4 & edad>=19 ) | (pco1=5 & edad>=19 ) | (pco1=6 & edad>=19 ))
+
 <br>
 <br> Algunas desagregaciones pueden llevar a datos que estadísticamente no son representativos
 	
 <br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1VoHdtzGpdkewaSklm994Gg974VilojhO">Datasets CASEN</a>
+						</p>
 							</div>
 						</div>
 					</div>
