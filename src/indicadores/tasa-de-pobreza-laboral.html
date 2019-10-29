@@ -140,7 +140,12 @@
 									ingresos.</p>
 								<h5>Definición</h5>
 								<p>Se define la tasa de pobreza laboral (TPL) sobre los ocupados como el porcentaje de
-									personas ocupadas que vive en hogares pobres.</p>
+									personas ocupadas que vive en hogares pobres, utilizando pobreza como pobreza por ingresos según nueva metodología.</p>
+								<h5>Forma de cálculo</h5>
+								
+								<img class="mb-3 img-formula"
+									src="../../assets/img/formulas/2.1 Tasa Pobreza Laboral.gif" />
+<br>
 								<div class="margin-acuerdos text-center tableau">
 									<div class="desktop">
 										<div class="tableauPlaceholder" id="viz1560021771877"
@@ -169,10 +174,65 @@
 										
 									</div>
 								</div>
-								<h5>Fuentes de datos</h5>
-								<p>La fuente de datos preferida es una encuesta de hogares con variables que pueden
-									identificar tanto el estado de pobreza de los hogares como la información sobre la
-									actividad económica de los miembros del hogar.</p>
+								<h5>Interpretación de Resultados</h5>
+								
+<p>La tasa de pobreza laboral combina los datos sobre el ingreso o el consumo de los hogares con los de las variables del marco de la fuerza de trabajo medidos a nivel individual y arroja luz sobre la relación entre la pobreza de los hogares y el empleo (o alternativamente entre la pobreza de los hogares y la población económicamente activa). Los umbrales nacionales de pobreza se recomiendan para este indicador, y los usuarios de los datos deben ser conscientes del método de medición de la línea de pobreza utilizado y cómo un enfoque diferente podría conducir a resultados diferentes.
+
+<br>Obsérvese que la pobreza en el contexto de este indicador es un concepto que se aplica a los hogares, y no a los individuos. Basándose en el supuesto de que los hogares agrupan sus ingresos, la pregunta que se hace es si el ingreso total de un hogar es suficiente para asegurar que no está clasificado como pobre. El estado de pobreza de un hogar es, por tanto, una función del salario y otros ingresos relacionados con el empleo garantizados por los miembros del hogar que trabajan (más cualquier ingreso no relacionado con el empleo como los pagos de transferencia) y el número de miembros del hogar. Por tanto, si un trabajador es considerado como un trabajador pobre, depende de sus propios ingresos, de los ingresos de otros miembros del hogar y del número de miembros del hogar, por ejemplo, los niños, que necesitan ser apoyados.
+
+<br>Por lo tanto, es muy útil estudiar la estructura de los hogares en relación con la pobreza laboral. Por ejemplo, puede ser relevante para algunos países evaluar las diferencias en las tasas de pobreza laboral entre las personas que viven en hogares cuyos miembros son personas no relacionadas (por ejemplo, jóvenes, solteros o trabajadores mayores no vinculados) de aquellos cuyos miembros están relacionados. Las zonas urbanas suelen tener una mayor proporción de hogares de individuos no vinculados en comparación con las áreas rurales; tales personas pueden vivir juntas con el fin de reducir los costos de vivienda y pueden compartir otros gastos del hogar tales como servicios públicos y alimentos. Además, se recomienda analizar las tasas de pobreza laboral de los individuos que viven en hogares sin niños; hogares con niños con un solo trabajador (distinguiendo su sexo) y hogares con niños con dos o más trabajadores. Reflejando el hecho de que los ingresos relacionados con el empleo de las mujeres siguen siendo en promedio muy inferiores a los de los hombres, las mujeres en hogares con niños, un trabajador y encabezados por mujeres tienden a experimentar tasas de pobreza de trabajo más altas que los hombres en hogares con niños, un trabajador y encabezados por hombres. El análisis del tamaño y las estructuras cambiantes de los hogares ayudará a comprender los cambios en las tasas de pobreza laboral.
+Los trabajadores pobres tienden a tener niveles de educación más bajos y suelen ser más jóvenes en promedio que los que no trabajan, aunque se pueden encontrar personas de todas las categorías de edad entre los trabajadores pobres. Este análisis puede indicar los tipos de políticas e incentivos educativos necesarios para garantizar que los jóvenes alcancen un nivel adecuado de logro educativo antes de entrar en el mercado de trabajo.
+
+<br>Las desagregaciones por rama de actividad, grupo de ocupación y situación de empleo de los trabajadores pobres ayudarán a identificar las categorías estructurales asociadas con esta población. Por ejemplo, puede proporcionar información sobre grupos específicos de industria u ocupación que podrían ser objeto de mejoras en las inversiones y la formación profesional que permitan obtener mejores ingresos relacionados con el empleo. O puede revelar si ciertas categorías de trabajadores por cuenta propia están en mayor riesgo de pobreza laboral que pueden ser apoyadas a través de políticas de desarrollo de micro y pequeñas empresas.
+
+</p>
+								
+
+<h5>Aspectos Técnicos</h5>
+								
+<p><b>Fuente:</b> Encuesta de Caracterización Socioeconómica Nacional (CASEN).
+<br><b>Unidad de tiempo:</b> 1 año.
+								
+<br><b>Período de referencia:</b> 2006 en adelante. 
+								
+<br><b>Forma de Cálculo:</b> Personas ocupadas en hogares pobres / total personas ocupadas * 100.
+								
+<br><b>Variables:</b>
+									
+<br>1. Ocupados (activ = 1)
+
+<br>2. Hogar pobre (nucleo > 0 & ytotcorh / numper <  Línea Pobreza)
+
+<br>3. Línea Pobreza por año ($ nov de cada año):
+2006 => 105.384
+2009 => 120.662
+2011 => 128.758
+2013 => 136.911
+2015 => 151.669 
+2017 => 158.145 
+FUente: http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensional/casen/docs/Presentacion_Sintesis_de_Resultados_Casen_2017.pdf
+
+<br><b>Desagregaciones:</b>
+<br>1. 	Sexo (sexo)
+<br>2.	Área geográfica (zona)
+<br>3.	Tramo de edad (edad)
+<br>4.	Nivel de logro educacional (educ)
+<br>5.	Tamaño del hogar (numper)
+<br>6.	Rama de actividad (rama1)
+<br>7.	Grupo de ocupación: oficio1)
+<br>8.	Situación de empleo: (ch1, o16, o20)
+<br>9.	Tipo de jornada: (o18, o19)
+<br>10.	Composición del hogar: "Estructura Hogar",  "Tipología Generacional", " Composición"
+<br> Estructura Hogar
+<br>1.Hogar unipersonal: Hogar compuesto de una persona (numper=1)
+<br>2.Hogar  sin  núcleo: Hogar que no tiene un núcleo conyugal o una relación madre/padre e hijo/hija, aunque pueden haber otros lazos familiares o no familiares (numper >=2 & sum(nucleo_SINO)=0
+<br>donde: nucleo_SINO (pco1=2 | pco1=3 | pco1=4 | pco1=5 | pc01=6 | pc01=7)
+<br>3.Familia Nuclear biparental: Núcleo conyugal con presencia o no de hijos (numper>=2 & sum(parejas)>=1 & sum(parientes)=0 & sum(otros)=0
+<br> donde: parejas (pco1=2 | pco1=3)									
+<br> Algunas desagregaciones pueden llevar a datos que estadísticamente no son representativos
+	
+<br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1VoHdtzGpdkewaSklm994Gg974VilojhO">Datasets CASEN</a>
+						</p>
 							</div>
 						</div>
 					</div>
