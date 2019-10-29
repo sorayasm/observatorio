@@ -204,13 +204,13 @@ Los trabajadores pobres tienden a tener niveles de educación más bajos y suele
 <br>2. Hogar pobre (nucleo > 0 & ytotcorh / numper <  Línea Pobreza)
 
 <br>3. Línea Pobreza por año ($ nov de cada año):
-2006 => 105.384
-2009 => 120.662
-2011 => 128.758
-2013 => 136.911
-2015 => 151.669 
-2017 => 158.145 
-FUente: http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensional/casen/docs/Presentacion_Sintesis_de_Resultados_Casen_2017.pdf
+<br>2006 => 105.384
+<br>2009 => 120.662
+<br>2011 => 128.758
+<br>2013 => 136.911
+<br>2015 => 151.669 
+<br>2017 => 158.145 
+<br>Fuente: <a href="http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensional/casen/docs/Presentacion_Sintesis_de_Resultados_Casen_2017.pdf">Presentación Síntesis de Resultados Casen 2017</a>
 
 <br><b>Desagregaciones:</b>
 <br>1. 	Sexo (sexo)
@@ -223,12 +223,20 @@ FUente: http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensi
 <br>8.	Situación de empleo: (ch1, o16, o20)
 <br>9.	Tipo de jornada: (o18, o19)
 <br>10.	Composición del hogar: "Estructura Hogar",  "Tipología Generacional", " Composición"
-<br> Estructura Hogar
-<br>1.Hogar unipersonal: Hogar compuesto de una persona (numper=1)
-<br>2.Hogar  sin  núcleo: Hogar que no tiene un núcleo conyugal o una relación madre/padre e hijo/hija, aunque pueden haber otros lazos familiares o no familiares (numper >=2 & sum(nucleo_SINO)=0
-<br>donde: nucleo_SINO (pco1=2 | pco1=3 | pco1=4 | pco1=5 | pc01=6 | pc01=7)
-<br>3.Familia Nuclear biparental: Núcleo conyugal con presencia o no de hijos (numper>=2 & sum(parejas)>=1 & sum(parientes)=0 & sum(otros)=0
-<br> donde: parejas (pco1=2 | pco1=3)									
+<p><br><i> Estructura Hogar</i></p>
+<br>a) Hogar unipersonal: Hogar compuesto de una persona (numper=1)
+<br>b) Hogar  sin  núcleo: Hogar que no tiene un núcleo conyugal o una relación madre/padre e hijo/hija, aunque pueden haber otros lazos familiares o no familiares (numper >=2 & sum(nucleo_SINO)=0
+<br>c) Familia nuclear biparental: Núcleo conyugal con presencia o no de hijos (numper>=2 & sum(parejas)>=1 & sum(parientes)=0 & sum(otros)=0
+<br>d) Familia  nuclear  monoparental: Núcleo con presencia sólo de padre o madre,  en que existe una relación entre éste(a) e hijo/hija (numper>=2 & sum(parejas)=0 & sum(hijos)>=1 & sum(parientes)=0 & sum(otros)=0
+<br>e) Familia  extensa  biparental: Núcleo conyugal  con  presencia  o  no  de  hijos, que  además  incluye  otro(s) pariente(s) (numper>=2 & sum(parejas)>=1 & sum(parientes)>=1 & sum(otros)=0)
+<br>f) Familia  compuesta: Núcleo (conyugal,o con presencia de padre o madre e hijo/hija), que incluye otro(s) pariente(s) y además incluye no pariente(s) (numper>=2 & sum(nucleo_SINO)>=1 & sum(parientes)>=1 & sum(otros)>=1)
+<p></p>
+<br>donde: 
+<br>nucleo_SINO (pco1=2 | pco1=3 | pco1=4 | pco1=5 | pc01=6 | pc01=7)
+<br>hijos (pco1=5)
+<br>parejas (pco1=2 | pco1=3)
+<br>parientes (pco1=7 | pco1=8 | pco1=9 | pco1=10 | pco1=11 | pco1=12 | pco1=13 )						<br>otros (pco=14)
+		
 <br> Algunas desagregaciones pueden llevar a datos que estadísticamente no son representativos
 	
 <br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1VoHdtzGpdkewaSklm994Gg974VilojhO">Datasets CASEN</a>
