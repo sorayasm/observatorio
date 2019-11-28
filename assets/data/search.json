@@ -117,7 +117,7 @@
 	{
 	  "title": "Promedio de remuneración por hora en ocupaciones seleccionadas",
 	  "excerpt": "Indicador del Trabajo Decente",
-	  "url": "src/indicadores/salario-real-promedio.html"
+	  "url": "src/indicadores/promedio-de-remuneracion-por-hora-en-ocupaciones-seleccionadas.html"
 	},
 	{
 	  "title": "Salario real promedio",
@@ -130,7 +130,7 @@
 	  "url": "src/indicadores/salario-minimo-como-porcentaje-del-ingreso-mediano.html"
 	},
 	{
-	  "title": "Índice de remuneraciones del sector industrial",
+	  "title": "Índice de remuneraciones del sector manufacturero",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/indice-de-remuneraciones-del-sector-industrial.html"
 	},
@@ -180,22 +180,22 @@
 	  "url": "src/indicadores/tasa-de-trabajo-forzado.html"
 	},
 	{
-	  "title": "Tasa de empleo precario (indicador principal)",
+	  "title": "Tasa de empleo precario",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tasa-de-empleo-precario.html"
 	},
 	{
-	  "title": "Tenencia de trabajo (indicador adicional)",
+	  "title":"Duración del Empleo",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tenencia-de-trabajo.html"
 	},
 	{
-	  "title": "Tasa de trabajadores de subsistencia (indicador adicional)",
+	  "title": "Tasa de trabajadores de subsistencia",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/tasa-de-trabajo-infantil-no-peligroso-en-sus-peores-formas.html"
 	},
 	{
-	  "title": "Ingresos reales de trabajadores temporales (indicador adicional)",
+	  "title": "Ingresos reales de trabajadores temporales",
 	  "excerpt": "Indicador del Trabajo Decente",
 	  "url": "src/indicadores/ingresos-reales-de-trabajadores-temporales.html"
 	},
