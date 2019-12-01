@@ -54,4 +54,6 @@ const outputHtml = matches => {
     }
 }
 
-if (search) search.addEventListener('input', () => searchPages(search.value));
+if (search) {
+    search.addEventListener('input', () => searchPages(search.value))
+}

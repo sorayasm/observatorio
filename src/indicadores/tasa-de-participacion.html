@@ -137,17 +137,10 @@
 												<param name="display_spinner" value="yes" />
 												<param name="display_overlay" value="yes" />
 												<param name="display_count" value="yes" /></object></div>
-                                        <script type="text/javascript">
-                                            var divElement = document.getElementById("viz1560022679647");
-                                            var vizElement = divElement.getElementsByTagName("object")[0];
-                                            vizElement.style.minWidth = "300px";
-                                            vizElement.style.maxWidth = "1900px";
-                                            vizElement.style.width = "100%";
-                                            vizElement.style.height = "1200px";
-                                            var scriptElement = document.createElement("script");
-                                            scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-                                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                                        </script>
+                                        <<<<<<< HEAD <script type="text/javascript">
+                                            var divElement = document.getElementById("viz1560022679647"); var vizElement = divElement.getElementsByTagName("object")[0]; vizElement.style.minWidth = "300px"; vizElement.style.maxWidth = "1900px"; vizElement.style.width = "100%"; vizElement.style.height
+                                            = "1200px"; var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                                            </script>
                                     </div>
                                     <div class="phone">
 
@@ -250,3 +243,115 @@
 </body>
 
 </html>
+=======
+<script type="text/javascript">
+    var divElement = document.getElementById("viz1560022679647");
+    var vizElement = divElement.getElementsByTagName("object")[0];
+    vizElement.style.minWidth = "300px";
+    vizElement.style.maxWidth = "1900px";
+    vizElement.style.width = "100%";
+    vizElement.style.height = "1200px";
+    var scriptElement = document.createElement("script");
+    scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+</div>
+<div class="phone">
+
+</div>
+</div>
+<h5>Interpretación de Resultados</h5>
+
+<p>
+    Como un indicador de la oferta laboral total en una economía, la TP es generalmente relativamente estable en el corto plazo en comparación con la tasa de desempleo y puede variar en el mediano a largo plazo, reflejando el impacto de factores socio-culturales,
+    demográficos y económicos. , y cambios en el marco legal, así como iniciativas de políticas educativas y de empleo. Por ejemplo, el aumento del logro educativo entre las mujeres y una mayor aceptación de la participación de las mujeres en el mercado
+    laboral a menudo conduce a una LFPR más alta. Los aumentos netos de los flujos de trabajadores migrantes a la fuerza de trabajo también generan una presión al alza sobre la LFPR.
+    <br> No existe un valor óptimo de la LFPR y el indicador por sí solo no es suficiente para evaluar la dimensión de oportunidades de empleo del trabajo decente. A nivel macroeconómico, lo que se observa son las tasas promedio agregadas de participación
+    en la fuerza de trabajo para toda la población o subgrupos (hombres, mujeres, adultos mayores, jóvenes, etc.). Los cambios mes a mes o los cambios trimestrales en la TP se deben evaluar utilizando datos ajustados estacionalmente.
+    <br> Al analizar las TP desglosadas por grupos de edad, los datos a menudo presentan una forma de U invertida ya que la oferta de mano de obra es relativamente pequeña entre los trabajadores más jóvenes, luego aumenta a medida que los grupos de edad
+    ingresan al mercado laboral y finalmente disminuye a medida que los trabajadores mayores comienzan a abandonar la fuerza laboral por razones de jubilación, salud u otras razones. la TP desglosada por sexo y grupo de edad presentado en el mismo gráfico
+    a menudo revela un efecto de “doble U invertida”, con LFPR de los hombres tomando valores más altos que las mujeres para cada grupo de edad respectivo. Esto refleja el hecho de que en muchas economías, los hombres son aún más propensos que las mujeres
+    a participar en la fuerza de trabajo.
+    <br> Los LFPR juveniles son más sensibles a los cambios económicos que las TP para adultos. En épocas de recesión económica, los trabajadores jóvenes que carecen de la experiencia laboral de trabajadores adultos a menudo tienen más probabilidades
+    de quedar desempleados y también de abandonar la fuerza de trabajo cuando se desaniman por la falta de perspectivas de empleo o deciden regresar a la escuela para ganar nuevas habilidades.
+    <br> Como una medida de la oferta laboral en una economía, la TP debe analizarse junto con la tasa de ocupación (TO), una medida clave de la demanda laboral. El análisis conjunto de los cambios de la TP y la TO es esencial para entender los movimientos
+    en la tasa de desempleo (TD). La TP también puede analizarse junto con medidas de trabajadores desalentados, cuyas filas a menudo aumentan durante períodos de debilidad económica o recesión.
+    <br> Puede ser útil analizar la demanda laboral y los indicadores de oferta junto con los ingresos (incluidos los ingresos relacionados con el empleo por categoría ocupacional).
+
+</p>
+
+
+<h5>Aspectos Técnicos</h5>
+
+<p><b>Fuente:</b> Encuesta Nacional de Empleo (ENE), INE.
+    <br><b>Unidad de tiempo:</b> 1 trimestre móvil.
+
+    <br><b>Período de referencia:</b> 2010 en adelante.
+
+    <br><b>Forma de Cálculo:</b> Fuerza de Trabajo / Población en Edad de Trabajar * 100.
+
+    <br><b>Variables:</b>
+
+    <br>1. Fuerza de Trabajo (cae_especifico>=1 & cae_especifico
+    <=9). <br>2. Población en Edad de Trabajar (edad>=15).
+
+        <br><b>Desagregaciones:</b>
+        <br>1. Tramo de edad (tramo_edad).
+
+        <br>2. Nivel de logro educativo (cine).
+
+        <br>3. Sexo (sexo).
+
+        <br>4. Área geográfica (region).
+        <br> Algunas desagregaciones pueden llevar a datos que estadísticamente no son representativos
+
+        <br><b>Bases de Datos:</b> <a href="https://drive.google.com/drive/folders/1YiUdUEc_nSn4KmcSAQQjh8RuOW2wFsmN">Datasets ENE</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="container-fluid odt-footer">
+    <div class="row pl-3">
+        <div class="col-12 col-sm-4 left d-inline-block">
+            <p class="footer-title">Proyecto patrocinado por </p>
+            <a href="https://www.dt.gob.cl">
+                <img class="logo-dt" src="../../assets/img/dt-chile.png" alt="Dirección del Trabajo de Chile">
+            </a>
+            <a href="https://www.ilo.org">
+                <img class="logo-oit" src="../../assets/img/oit.png" alt="Organización Internacional del  Trabajo">
+            </a>
+        </div>
+        <div class="col-12 col-sm-4 text-center">
+            <p class="footer-title">Proyecto apoyado por </p>
+            <a href="https://www.lab.gob.cl">
+                <img class="logo-lab" src="../../assets/img/logo-lab.svg" alt="Laboratorio de Gobierno Chile">
+            </a>
+            <a href="https://innovadorespublicos.cl/">
+                <img class="logo-red" src="../../assets/img/logo-red.svg" alt="Red de Innovadores Públicos">
+            </a>
+        </div>
+        <div class="col-12 col-sm-4 text-center">
+            <p class="footer-title">Estamos en:</p>
+            <br>
+            <a href="https://www.facebook.com/Observatorio-Trabajo-Decente-372841016690923/" target="_blank"><i
+						class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/ObsTrabDecente" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/observatorio-de-trabajo-decente/about/" target="_blank"><i
+						class="fab fa-linkedin-in"></i></a>
+            <a href="../observatorio/contacto.html"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+</body>
+
+</html>
+>>>>>>> e12759a7d957e4a9b5db4a43edb443dd0f534baa
