@@ -6,11 +6,20 @@
 
 .carousel-caption p {
     font-size: 1em;
+    color: #02558a;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px
 }
 
 .carousel-caption h1{
     font-size: 2.2em;
     background-color: #ffffffcf;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right:10px
 }
   
   .carousel-item {
@@ -22,11 +31,12 @@
     top: 0;
     left: 0;
     min-width: 100%;
-    height: auto
+    height: auto;
+    min-height: 600px;
   }
 
   .bg-carousel{
-    background-color: #02558acf;
+    background-color: #ffffffcf;
   }
 
   @media  (max-width: 767px) {
@@ -66,8 +76,8 @@ div#match-list {
  }
 
  .title-dimensiones{
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 14px;
  }
 
 .percircle.dark {
