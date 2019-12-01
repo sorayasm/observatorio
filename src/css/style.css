@@ -1,0 +1,737 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* General Styles */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 14px !important;
+    margin-bottom: 12em;
+    font-family: 'Roboto', sans-serif;
+}
+
+*-primary {
+    color: #02558a;
+}
+
+*-secondary {
+    color: #585858;
+}
+
+*-info {
+    color: #00aeef;
+}
+
+.bg-primary {
+    background-color: #02558a !important;
+}
+
+.bg-secondary {
+    background-color: #585858 !important;
+}
+
+.bg-info {
+    background-color: #00aeef !important;
+}
+
+.btn-primary {
+    background-color: #02558a !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+h1 {
+    color: #02558a;
+}
+
+h2 {
+    margin-top: .5em;
+    color: #585858;
+}
+
+h3 {
+    color: #585858;
+}
+
+h4 {
+    margin-top: 1em;
+    padding-bottom: 0.75em;
+    color: #585858;
+    font-weight: 500;
+}
+
+h5 {
+    color: #585858;
+    ;
+    font-weight: 600;
+}
+
+a {
+    color: #02558a;
+}
+
+a:hover {
+    color: #00aeef;
+    text-decoration: none;
+}
+
+.btn {
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+input {
+    border-radius: 0px !important;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.img-formula {
+    min-width: 290px;
+    width: 35%;
+    padding-bottom: 5em;
+}
+
+.bottom {
+    padding-bottom: 2em;
+}
+
+.icon-width {
+    width: 60px;
+}
+
+.iconos-dimensiones {
+    width: 60px;
+    margin-top: -15px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.form-space {
+    margin: 15px auto !important;
+}
+
+.form-space.form-control {
+    width: 95%;
+}
+
+.navbar-brand {
+    display: block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+ul.navbar-nav {
+    margin: 3em 0em 0em 3em;
+}
+
+
+/* col padding */
+
+[class*="col-"] {
+    padding: 0em 1em;
+}
+
+.margin-acuerdos {
+    padding: 0 2em 2em 2em!important;
+}
+
+.bg-otd {
+    background-color: #eeecea;
+    margin: 15px 0px;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.bg-otd h2 {
+    padding-bottom: 0.75em;
+    text-align: center;
+}
+
+.dropdown-item {
+    font-size: 12px;
+}
+
+ol li {
+    margin-left: 2em;
+    padding-left: 10px;
+}
+
+
+/* Nav */
+
+.logo {
+    height: 90px;
+}
+
+nav {
+    background-color: #ffffffcf;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Main */
+
+.main {
+    text-align: justify;
+}
+
+
+/* 5 cols */
+
+.ten-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col-md-15 {
+    width: 20%;
+    float: left;
+}
+
+
+/* Hero page*/
+
+.hero-page {
+    height: 350px;
+    background: url(https://source.unsplash.com/collection/5003521) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 0px !important;
+}
+
+.hero-text-page {
+    text-align: left;
+    position: absolute;
+    top: 70%;
+    left: 12%;
+}
+
+.hero-text-page h2 {
+    color: rgb(34, 34, 34) !important;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #ffffffcf;
+    padding: .5em;
+}
+
+
+/* Card */
+
+.card {
+    background-color: #fff;
+    border: 1px solid transparent;
+    width: 280px;
+    margin: 1em auto;
+}
+
+.card-default {
+    border-color: #ddd;
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+
+.card>.card-link {
+    color: #333;
+}
+
+.card>.card-link:hover {
+    text-decoration: none;
+}
+
+.card>.card-link .card-img img {
+    border-radius: none;
+}
+
+.card .card-img {
+    position: relative;
+    padding: 0;
+    display: table;
+}
+
+.card .card-img .card-caption {
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+    left: 0;
+}
+
+.card .card-body {
+    display: table;
+    width: 100%;
+    padding: 12px;
+}
+
+
+/* Tableau */
+
+.tableau {
+    margin: 0 auto;
+}
+
+.phone {
+    display: none;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #02558a;
+    color: #ffffff;
+    padding: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer i {
+    font-size: 14px;
+    margin: 0px 1em;
+    vertical-align: middle;
+}
+
+footer .row {
+    margin: 0 !important;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .logo-lab {
+    width: 130px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+footer .logo-red {
+    width: 150px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+footer .logo-oit {
+    width: 150px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+footer .logo-dt {
+    width: 70px;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+footer .footer-title {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #00aeef;
+    text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+    body {
+        margin-bottom: 36em;
+        font-size: 12px !important;
+    }
+    .odt-footer {
+        text-align: center;
+    }
+    .navbar-nav {
+        background-color: white;
+    }
+    .margin-acuerdos {
+        padding: 0 !important;
+    }
+}
+
+
+/* headers */
+
+.header-radiografias {
+    background: url(../../assets/img/headers/R---Huelga.jpg) no-repeat center center fixed;
+}
+
+.header-trabajadoracasa {
+    background: url(../../assets/img/headers/R---Trabajadora-casa-particular-1.jpg) no-repeat center center fixed;
+}
+
+.header-leyinclusion {
+    background: url(../../assets/img/headers/R-inclusion-1.jpg) no-repeat center center fixed;
+}
+
+.header-combinando {
+    background: url(../../assets/img/headers/combinando-trabajo-familia-y-vida-personal.jpg) no-repeat center center fixed;
+}
+
+.header-ingresorealestrabtemp {
+    background: url(../../assets/img/headers/ingresos-reales-de-trabajadores-temporals.jpg) no-repeat center center fixed;
+}
+
+.header-participacionfemenina {
+    background: url(../../assets/img/headers/participacion-femenina-en-la-gerencia-media-y-superior.jpg) no-repeat center center fixed;
+}
+
+.header-vejez {
+    background: url(../../assets/img/headers/Porcentaje-de-poblacion-superior-vejez.jpg) no-repeat center center fixed;
+}
+
+.header-segregacionocupacional {
+    background: url(../../assets/img/headers/segregacion-ocupacional-por-sexo.jpg) no-repeat center center fixed;
+}
+
+.header-empleoprecario {
+    background: url(../../assets/img/headers/tasa-de-empleo-precario_temporero.jpg) no-repeat center center fixed;
+}
+
+.header-empleoforzado {
+    background: url(../../assets/img/headers/tasa-de-trabajo-forzado.jpg) no-repeat center center fixed;
+}
+
+.header-oportunidades {
+    background: url(../../assets/img/headers/D-Oportunidades-de-empleo.jpg) no-repeat center center fixed;
+}
+
+.header-ingresosadecuados {
+    background: url(../../assets/img/headers/D-Ingresos-adecuados-y-trabajo-productivo.jpg) no-repeat center center fixed;
+}
+
+.header-tiempo {
+    background: url(../../assets/img/headers/D--tiempo-trabajo-decente.jpg) no-repeat center center fixed;
+}
+
+.header-estabilidad {
+    background: url(../../assets/img/headers/D--estabilidad-y-seguridad-del-trabajo.jpg) no-repeat center center fixed;
+}
+
+.header-seguridadsocial {
+    background: url(../../assets/img/headers/D-seguridad-social.jpg) no-repeat center center fixed;
+}
+
+.header-ambiente {
+    background: url(../../assets/img/headers/D-ambiente-de-trabajo-seguro.jpg) no-repeat center center fixed;
+}
+
+.header-abolido {
+    background: url(../../assets/img/headers/D--trabajo-que-debe-ser-abolido.jpg) no-repeat center center fixed;
+}
+
+.header-noticias {
+    background: url(../../assets/img/headers/noticias.jpg) no-repeat center center fixed;
+}
+
+.header-contacto {
+    background: url(../../assets/img/headers/contacto.jpg) no-repeat center center fixed;
+}
+
+.header-about {
+    background: url(../../assets/img/headers/quienes-somos.jpg) fixed;
+}
+
+.header-dimensiones {
+    background: url(../../assets/img/headers/Como-se-mide-el-Trabajo-Decente.jpg) no-repeat center center fixed;
+}
+
+.header-datasets {
+    background: url(../../assets/img/headers/data-sets.jpg) repeat top center fixed;
+}
+
+.header-sources {
+    background: url(../../assets/img/headers/fuentes-de-datos.jpg) repeat top center fixed;
+}
+
+.header-concepto {
+    background: url(../../assets/img/headers/Que-es-Trabajo-Decente.jpg) top center fixed;
+}
+
+.header-dialogosocial {
+    background: url(../../assets/img/headers/D-dialogo-social.jpg) center center fixed;
+}
+
+.header-patronales {
+    background: url(../../assets/img/headers/Dias-no-trabajados-debido-a-huelgas-y-cierres-patronales.jpg) center center fixed;
+}
+
+.header-pib {
+    background: url(../../assets/img/headers/Gasto-de-la-seguridad-social-publica.jpg) center center fixed;
+}
+
+.header-densidadsindical {
+    background: url(../../assets/img/headers/Indice-de-densidad-sindical.jpg) center center fixed;
+}
+
+.header-inspeccion {
+    background: url(../../assets/img/headers/Inspeccion-del-trabajo-.jpg) center center fixed;
+}
+
+.header-noagricola {
+    background: url(../../assets/img/headers/Porcentaje-de-asalariados-en-el-empleo-no-agricola.jpg) center center fixed;
+}
+
+.header-pensiones {
+    background: url(../../assets/img/headers/Proporcion-poblacion-ec-activa-que-contribuye-a-un-plan-de-pensiones.jpg) center center fixed;
+}
+
+.header-salarioreal {
+    background: url(../../assets/img/headers/Salario-real-promedio.jpg) center center fixed;
+}
+
+.header-bajaremuneracion {
+    background: url(../../assets/img/headers/Tasa-de-asalariados-con-baja-remuneracion.jpg) center center fixed;
+}
+
+.header-negociacioncolectiva {
+    background: url(../../assets/img/headers/Tasa-de-cobertura-de-negociacion-colectiva.jpg) center center fixed;
+}
+
+.header-densidadempleadores {
+    background: url(../../assets/img/headers/Tasa-de-densidad-de-la-organizacion-de-empleadores.jpg) bottom center fixed;
+}
+
+.header-desocupacion {
+    background: url(../../assets/img/headers/Tasa-de-desocupacion.jpg) center center fixed;
+}
+
+.header-lesionesfatal {
+    background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-fatal.jpg) center center fixed;
+}
+
+.header-lesionesnofatal {
+    background: url(../../assets/img/headers/Tasa-de-frecuencia-de-lesiones-ocupacionales-no-fatal.jpg) repeat center center fixed;
+}
+
+.header-ninis {
+    background: url(../../assets/img/headers/Tasa-de-jóvenes-que-no-estudian-trabajan-o-se-capacita.jpg) center center fixed;
+}
+
+.header-subempleotiempo {
+    background: url(../../assets/img/headers/Tasa-de-subempleo-relacionada-con-el-tiempo.jpg) center center fixed;
+}
+
+.header-tiempolesion {
+    background: url(../../assets/img/headers/Tiempo-perdido-por-lesion-ocupacional.jpg) center center fixed;
+}
+
+.header-ocupacion {
+    background: url(../../assets/img/headers/tasa-de-ocupacion.jpg) center center fixed;
+}
+
+.header-capacitacionreciente {
+    background: url(../../assets/img/headers/tasa-de-asalariados-con-capacitaciones-recientes-copy.jpg) center center fixed;
+}
+
+.header-mujeresagricola {
+    background: url(../../assets/img/headers/porcentaje-de-mujeres-en-el-empleo-asalariado-del-sector-no-agricola.jpg) center center fixed;
+}
+
+.header-tiempoexcesivo {
+    background: url(../../assets/img/headers/ocupados-en-tiempo-de-trabjo-excesivo2.jpg) center center fixed;
+}
+
+.header-porhoras {
+    background: url(../../assets/img/headers/ocupados-por-hora-trabajada.jpg) center center fixed;
+}
+
+.header-manufacturero {
+    background: url(../../assets/img/headers/indice-de-remuneraciones-del-sector-industrial.jpg) center center fixed;
+}
+
+.header-categoria-ocupacional {
+    background: url(../../assets/img/headers/empleo-por-categoria-ocupacional.jpg) center right fixed;
+}
+
+.header-logroeducativo {
+    background: url(../../assets/img/headers/tasa-de-nivel-de-desempleo-por-nivel-de-logro-educativo.jpg) center center fixed;
+}
+
+.header-salariominimo {
+    background: url(../../assets/img/headers/salario-minimo-como-porcentaje-del-ingreso-mediano-.jpg) center center fixed;
+}
+
+.header-brechagenero {
+    background: url(../../assets/img/headers/brecha-salarial-de-genero.jpg) center center fixed;
+}
+
+.header-pobrezalaboral {
+    background: url(../../assets/img/headers/tasa-pobreza-laboral.jpg) center center fixed;
+}
+
+.header-igualdad {
+    background: url(../../assets/img/headers/D--Igualdad-de-oportunidades-y-trato-en-el-trabajo.jpg) center right fixed;
+    background-size: auto;
+}
+
+.header-empleoinformal {
+    background: url(../../assets/img/headers/tasa-de-empleo-informal.jpg) center center fixed;
+}
+
+.header-subsistencia {
+    background: url(../../assets/img/headers/Tasa-de-trabajadores-de-subsistencia.jpg) center center fixed;
+}
+
+.header-trabajoinfantil {
+    background: url(../../assets/img/headers/Tasa-de-trabajo-infantil.jpg) center center fixed;
+}
+
+.header-peoresformas {
+    background: url(../../assets/img/headers/Tasa-de-trabajo-infantil-no-peligroso-en-sus-peores-formas.jpg) center center fixed;
+}
+
+.header-infantilpeligroso {
+    background: url(../../assets/img/headers/Tasa-de-trabajo-infantil-peligroso.jpg) center center fixed;
+}
+
+.header-duracionempleo {
+    background: url(../../assets/img/headers/Tenencia-de-trabajo.jpg) center center fixed;
+}
+
+.header-promedioporhoras {
+    background: url(../../assets/img/headers/promedio-de-remuneracion-por-hora-en-ocupaciones-seleccionadas.jpg) center center fixed;
+}
+
+.header-tcp {
+    background: url(../../assets/img/headers/Porcentaje-de-t.c.p.-y-f.n.r.-en-el-empleo_cuidado-anciano.jpg) center center fixed;
+}
+
+.header-participacion {
+    background: url(../../assets/img/headers/tasa-de-participacion.jpg) center center fixed;
+}
+
+.header-desempleojuvenil {
+    background: url(../../assets/img/headers/tasa-de-desempleo-juvenil.jpg) center center fixed;
+}
+
+
+/* Data sets */
+
+table.dataTable th.dt-center,
+table.dataTable td.dt-center,
+table.dataTable td.dataTables_empty {
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .excerpt {
+        overflow: hidden;
+        max-width: 25ch;
+        text-overflow: ellipsis;
+    }
+    .hero-text-page h2 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,322 @@
+[
+	{
+	  "title": "Oportunidades de empleo",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/oportunidades-de-empleo.html"
+	},
+	{
+	  "title": "Ingresos adecuados y trabajo productivo",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/ingresos-adecuados-y-trabajo-productivo.html"
+	},
+	{
+	  "title": "Tiempo de trabajo decente",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/tiempo-de-trabajo-decente.html"
+	},
+	{
+	  "title": "Combinando trabajo, familia y vida personal",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/combinando-trabajo-familia-y-vida-personal.html"
+	},
+	{
+	  "title": "Trabajo que debe ser abolido",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/trabajo-que-debe-ser-abolido.html"
+	},
+	{
+	  "title": "Estabilidad y seguridad del trabajo",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/estabilidad-y-seguridad-del-trabajo.html"
+	},
+	{
+	  "title": "Igualdad de oportunidades y trato en el trabajo",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/igualdad-de-oportunidades-y-trato-en-el-trabajo.html"
+	},
+	{
+	  "title": "Ambiente de Trabajo Seguro",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/ambiente-de-trabajo-seguro.html"
+	},
+	{
+	  "title": "Seguridad Social",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/seguridad-social.html"
+	},
+	{
+	  "title": "Diálogo social representación de los trabajadores y empleadores",
+	  "excerpt": "Dimensión del Trabajo Decente",
+	  "url": "src/visualizaciones/dialogo-social.html"
+	},
+	{
+	  "title": "Tasa de Ocupación",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-ocupacion.html"
+	},
+	{
+	  "title": "Tasa de ocupación",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-ocupacion.html"
+	},
+	{
+	  "title": "Tasa de desocupación",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-desocupacion.html"
+	},
+	{
+	  "title": "Tasa de jóvenes que no estudian, trabajan o se capacitan",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-jovenes-que-no-estudian-trabajan-o-capacitan.html"
+	},
+	{
+	  "title": "Tasa de empleo informal",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-empleo-informal.html"
+	},
+	{
+	  "title": "Tasa de participación",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-participacion.html"
+	},
+	{
+	  "title": "Tasa de desempleo juvenil",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-desempleo-juvenil.html"
+	},
+	{
+	  "title": "Desempleo por nivel de logro educativo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/desempleo-por-nivel-de-logro-educativo.html"
+	},
+	{
+	  "title": "Empleo por categoría ocupacional",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/empleo-por-categoria-ocupacional.html"
+	},
+	{
+	  "title": "Porcentaje de t.c.p. y f.n.r. en el empleo total",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/porcentaje-de-tcp-y-fnr-en-el-empleo-total.html"
+	},
+	{
+	  "title": "Porcentaje de asalariados en el empleo no-agrícola",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/porcentaje-de-asalariados-en-el-empleo-no-agricola.html"
+	},
+	{
+	  "title": "Tasa de pobreza laboral",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-pobreza-laboral.html"
+	},
+	{
+	  "title": "Tasa de asalariados con baja remuneración",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-asalariados-con-baja-remuneracion.html"
+	},
+	{
+	  "title": "Promedio de remuneración por hora en ocupaciones seleccionadas",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/promedio-de-remuneracion-por-hora-en-ocupaciones-seleccionadas.html"
+	},
+	{
+	  "title": "Salario real promedio",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/salario-real-promedio.html"
+	},
+	{
+	  "title": "Salario mínimo como porcentaje del ingreso mediano",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/salario-minimo-como-porcentaje-del-ingreso-mediano.html"
+	},
+	{
+	  "title": "Índice de remuneraciones del sector manufacturero",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/indice-de-remuneraciones-del-sector-industrial.html"
+	},
+	{
+	  "title": "Tasa de asalariados con capacitaciones recientes",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-asalariados-con-capacitaciones-recientes.html"
+	},
+	{
+	  "title": "Ocupados en tiempo de trabajo excesivo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/ocupados-en-tiempo-de-trabajo-excesivo.html"
+	},
+	{
+	  "title": "Ocupados por horas trabajadas",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/ocupados-por-horas-trabajadas.html"
+	},
+	{
+	  "title": "Promedio de tiempo de trabajo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/promedio-de-tiempo-de-trabajo.html"
+	},
+	{
+	  "title": "Tasa de subempleo relacionada con el tiempo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-subempleo-relacionada-con-el-tiempo.html"
+	},
+	{
+	  "title": "Tasa de trabajo infantil",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-trabajo-infantil.html"
+	},
+	{
+	  "title": "Tasa de trabajo infantil peligroso",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-trabajo-infantil-peligroso.html"
+	},
+	{
+	  "title": "Tasa de trabajo infantil (no peligroso) en sus peores formas",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-trabajo-infantil-no-peligroso-en-sus-peores-formas.html"
+	},
+	{
+	  "title": "Tasa de trabajo forzado",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-trabajo-forzado.html"
+	},
+	{
+	  "title": "Tasa de empleo precario",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-empleo-precario.html"
+	},
+	{
+	  "title":"Duración del Empleo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tenencia-de-trabajo.html"
+	},
+	{
+	  "title": "Tasa de trabajadores de subsistencia",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-trabajo-infantil-no-peligroso-en-sus-peores-formas.html"
+	},
+	{
+	  "title": "Ingresos reales de trabajadores temporales",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/ingresos-reales-de-trabajadores-temporales.html"
+	},
+	{
+	  "title": "Segregación ocupacional por sexo",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/segregaci%C3%B3n-ocupacional-por-sexo.html"
+	},
+	{
+	  "title": "Participación femenina en el empleo en la gerencia media y superior",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/participacion-femenina-en-el-empleo-en-la-gerencia-media-y-superior.html"
+	},
+	{
+	  "title": "Brecha salarial de género",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/brecha-salarial-de-genero.html"
+	},
+	{
+	  "title": "Porcentaje de mujeres en el empleo asalariado del sector no-agrícola",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/porcentaje-de-mujeres-en-el-empleo-asalariado-del-sector-no-agricola.html"
+	},
+	{
+	  "title": "Tasa de frecuencia de lesiones ocupacionales, fatal",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-frecuencia-de-lesiones-ocupacionales-fatal.html"
+	},
+	{
+	  "title": "Tasa de frecuencia de lesiones ocupacionales, no fatal",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-frecuencia-de-lesiones-ocupacionales-no-fatal.html"
+	},
+	{
+	  "title": "Tiempo perdido por lesión ocupacional",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tiempo-perdido-por-lesion-ocupacional.html"
+	},
+	{
+	  "title": "Inspección del trabajo (inspectores por cada 10.000 personas empleadas)",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/inspeccion-del-trabajo.html"
+	},
+	{
+	  "title": "Porcentaje de población superior a la edad legal de jubilación (o de 65 años o más) que se beneficia de una pensión de vejez",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/adultos-mayores-que-se-benefician-del-pago-de-pensiones.html"
+	},
+	{
+	  "title": "Gasto de la seguridad social pública (porcentaje del PIB)",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/gasto-de-la-seguridad-social-publica.html"
+	},
+	{
+	  "title": "Proporción de la población económicamente activa que contribuye a un plan de pensiones",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/proporcion-de-la-poblacion-economicamente-activa-que-contribuye-a-un-plan-de-pensiones.html"
+	},
+	{
+	  "title": "Índice de densidad sindical",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/indice-de-densidad-sindical.html"
+	},
+	{
+	  "title": "Tasa de densidad de la organización de empleadores",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-densidad-de-la-organizacion-de-empleadores.html"
+	},
+	{
+	  "title": "Tasa de cobertura de negociación colectiva",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/tasa-de-cobertura-de-negociacion-colectiva.html"
+	},
+	{
+	  "title": "Días no trabajados debido a huelgas y cierres patronales",
+	  "excerpt": "Indicador del Trabajo Decente",
+	  "url": "src/indicadores/dias-no-trabajados-debido-a-huelgas-y-cierres-patronales.html"
+	},
+	{
+	  "title": "Quiénes Somos",
+	  "excerpt": "Sobre el Observatorio",
+	  "url": "src/observatorio/about.html"
+	},
+	{
+	  "title": "¿Qué es Trabajo Decente?",
+	  "excerpt": "Sobre el Observatorio",
+	  "url": "src/observatorio/concepto.html"
+	},
+	{
+	  "title": "¿Cómo se mide el Trabajo Decente?",
+	  "excerpt": "Dimensiones del Trabajo Decente",
+	  "url": "src/observatorio/dimensiones.html"
+	},
+	{
+	  "title": "Contacto",
+	  "excerpt": "Sobre el Observatorio",
+	  "url": "src/observatorio/contacto.html"
+	},
+	{
+	  "title": "Datasets",
+	  "excerpt": "Datasets",
+	  "url": "src/datos/datasets.html"
+	},
+	{
+	  "title": "Fuentes de Datos",
+	  "excerpt": "Datasets",
+	  "url": "src/datos/fuentes-de-datos.html"
+	},
+	{
+	  "title": "Radiografías",
+	  "excerpt": "Radiografías",
+	  "url": "src/radiografias.html"
+	},
+	{
+	  "title": "Seguimiento de acuerdos",
+	  "excerpt": "Seguimiento de Acuerdos",
+	  "url": "src/acuerdos.html"
+	},
+	{
+	  "title": "Noticias",
+	  "excerpt": "Noticias sobre Trabajo Decente",
+	  "url": "src/noticias.html"
+	}
+  ]
